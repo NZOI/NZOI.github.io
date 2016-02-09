@@ -1,0 +1,20 @@
+<header class="header">
+  <div class="container">
+    <div class="header-left">
+      <a class="header-item" href="#">
+        NZOI
+      </a>
+      
+      {% assign nodes = site.pages | sort: "weight" %}
+      
+      {% for nodes in nodes %}
+        {% if nodes.url == page.url %}
+          <a class="header-tab is-active" href="{{nodes.url}}" class="active">{{nodes.title}}</a>
+        {% else %}
+          <a class="header-tab" href="{{nodes.url}}">{{nodes.title}}</a>
+        {% endif %}
+      {% endfor %}
+      
+    </div>
+  </div>
+</header>

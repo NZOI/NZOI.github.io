@@ -1,0 +1,32 @@
+---
+layout: default
+title: Sponsors
+permalink: /sponsors/
+weight: 40
+---
+
+<section class="section">
+  <div class="container">  
+    <h1 class="title">Our Sponsors</h1>
+    <h2 class="subtitle">A giant thanks to all of our sponsors!</h1>
+
+    <div class="columns">
+      {% for sponsor in site.data.sponsors %}
+        {% assign loopindex = forloop.index | modulo: 4 %}
+        {% if loopindex == 1 %}
+          </div>  
+          <div class="columns">
+        {% endif %}
+        
+        <div class="column is-3">
+          <div class="card">
+            <figure class="card-image is-centered">
+              <img class="is-centered" src="/images/sponsors/{{sponsor.sponsor_logo}}">
+            </figure>
+          </div>
+        </div>  
+      {% endfor %}
+    </div>
+  </div>
+</section>
+    
