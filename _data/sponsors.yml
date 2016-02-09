@@ -1,17 +1,145 @@
-- name: The Royal Society of New Zealand
-  sponsor_logo: royal.png
-  
-- name: Todd Foundation
-  sponsor_logo: todd.png
-  
-- name: Ace
-  sponsor_logo: ace.png
-  
-- name: ACG
-  sponsor_logo: acg.png
-  
-- name: AUT
-  sponsor_logo: aut.png
-  
-- name: Datacom
-  sponsor_logo: datacom.png
+- year: 2013
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: AUT
+      sponsor_logo: aut.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+    -
+      name: Vend
+      sponsor_logo: acg.png
+    -
+      name: Orion Health
+      sponsor_logo: orion.png
+    -
+      name: InternetNZ
+      sponsor_logo: internetnz.png
+- year: 2012
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: AUT
+      sponsor_logo: aut.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+    -
+      name: ACG
+      sponsor_logo: acg.png
+    -
+      name: Department of Computer Science, University of Auckland
+      sponsor_logo:
+    -
+      name: InternetNZ
+      sponsor_logo: internetnz.png
+- year: 2011
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: Department of Computer Science, University of Auckland
+      sponsor_logo:
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: AUT
+      sponsor_logo: aut.png
+    -
+      name: Several Anonymous Donors
+      sponsor_logo:
+- year: 2010
+  sponsors:
+- year: 2009
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: Ace
+      sponsor_logo: ace.png
+    -
+      name: Datacom
+      sponsor_logo: datacom.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+    -
+      name: Department of Computer Science, University of Auckland
+      sponsor_logo:
+    -
+      name: Tobias Thierer
+      sponsor_logo:
+    -
+      name: Silverstripe
+      sponsor_logo: silverstripe.png
+
+- year: 2008
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: Todd Foundation
+      sponsor_logo: todd.png
+    -
+      name: Ace
+      sponsor_logo: ace.png
+    -
+      name: Datacom
+      sponsor_logo: datacom.png
+    -
+      name: Eagle Technology
+      sponsor_logo: eagle.png
+    -
+      name: Department of Computer Science, University of Auckland
+      sponsor_logo:
+    -
+      name: Donnelle Belanger-Taylor
+      sponsor_logo:
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+- year: 2007
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: Intergen
+      sponsor_logo: Intergen-logo.png
+    -
+      name: Ace
+      sponsor_logo: ace.png
+    -
+      name: Datacom
+      sponsor_logo: datacom.png
+    -
+      name: IBM
+      sponsor_logo: ibm.png
+    -
+      name: NZMAT
+      sponsor_logo: nzmat.png
+    -
+      name: NZMET
+      sponsor_logo:
+    -
+      name: Smart Computer Systems
+      sponsor_logo: smartcomputersystems.png
+
