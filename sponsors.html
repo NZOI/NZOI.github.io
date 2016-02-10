@@ -6,27 +6,32 @@ weight: 40
 ---
 
 <section class="section">
-  <div class="container">  
+  <div class="container">
     <h1 class="title">Our Sponsors</h1>
     <h2 class="subtitle">A giant thanks to all of our sponsors!</h1>
-
+    {% for sponsors in site.data.sponsors %}
+    <h3 class="subtitle">{{sponsors.year}}</h3>
     <div class="columns">
-      {% for sponsor in site.data.sponsors %}
-        {% assign loopindex = forloop.index | modulo: 4 %}
-        {% if loopindex == 1 %}
-          </div>  
-          <div class="columns">
-        {% endif %}
-        
-        <div class="column is-3">
-          <div class="card">
-            <figure class="card-image is-centered">
-              <img class="is-centered" src="/images/sponsors/{{sponsor.sponsor_logo}}">
-            </figure>
-          </div>
-        </div>  
+      {% for sponsor in sponsors.sponsors %}
+      {% assign loopindex = forloop.index | modulo: 4 %}
+      {% if loopindex == 1 %}
+    </div>
+    <div class="columns">
+      {% endif %}
+      <div class="column is-3">
+        <div class="card">
+          <figure class="card-image is-centered">
+            {% if sponsor.sponsor_logo %}
+            <img class="is-centered" src="/images/sponsors/{{sponsor.sponsor_logo}}" alt="{{sponsor.name}}" />
+            {% else %}
+            <div>{{sponsor.name}}</div>
+            {% endif %}
+          </figure>
+        </div>
+      </div>
       {% endfor %}
     </div>
+    {% endfor %}
   </div>
 </section>
-    
+
