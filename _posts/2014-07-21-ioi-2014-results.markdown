@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "IOI 2014 Results"
+date:   2014-07-21
+---
+
+The 2014 IOI was held in Taipei, Taiwan from July 13 to July 20. The New Zealand team consisted of Alan Ansell (Auckland University), Christopher Brown (Christs College), Byung Hoon Cho (Auckland Grammar) and Tate Kennington (James Hargest). They were accompanied by Ronald Chan (leader) and Margot Phillipps (deputy leader). The team gathered in Auckland for extra training on July 6 and left for Taiwan on the 11th.
+
+There were 2 competition days, July 15 and 17, where 3 problems are presented with 5 hours to solve them. Sub tasks can be attempted in any problem for partial marks. Alan kept us in suspense on the first day, solving one problem for 100 marks with 7 minutes to spare. This put him right on the bronze boundary. The second day he gained a further 127 marks which was sufficient to earn him a bronze medal, placed 149th.
+
+The other students were relatively young but have been motivated by their experience to try for a medal in future years. There were 311 contestants and Christopher placed 197 with a combined total of 155, Byung Hoon placed 223rd with 106 and Tate was 269th with 63.
+
+We had trips to the zoo, to Lihpaoland Amusement park (an aquatic theme park) , to the National center for Traditional Arts and an unofficial trip to a 6 story plaza of electronics stores
+
+The team arrived back rather tired and a day late for school on Tuesday 22 July!
+
+![team photo](http://nzoi.org.nz/gallery/2014%20-%20Taiwan/IMG_0340.JPG)

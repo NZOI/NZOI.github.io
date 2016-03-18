@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "IOI 2015 results"
+date:   2015-08-09
+---
+
+The 27th IOI was held in Almaty, Kazakhstan from July 26 to August 2. The New Zealand team for 2015, consisted of Jonathan Khoo (Mount Roskill Grammar), Christopher Brown (Christ's College), Byung Hoon Cho (Auckland Grammar) and Philip Anderson (King's High School).
+
+While spectators may have been worried when Christopher was still at only 20 points 2.5 hours into the first day, he pulled through in the end. After two days of competition, each 5 hours long with 3 problems worth 100 points, Jonathan Khoo and Christopher Brown both won bronze medals, scoring 256.42 and 238.42 respectively. Out of 322 official contestants from over 80 countries, Jonathan placed 120th, and Christopher placed 134th. This is an excellent result, particularly since this is Jonathan's first year competing in the IOI. Byung Hoon Cho scored 145.46 placing 190th, and Philip Anderson scored 118, placing 218th.
+
+Apart from the competition days, we had two excursions, attending the Kazakh State Circus, and acquainting ourselves with the local Kazakh customs and traditions.
+
+The next IOI will be held in Kazan, Russia. As Jonathan and Christopher are both still only year 12, we are looking forward to seeing how well they can do next year.
+
+![team photo](http://nzoi.org.nz/gallery/2015%20-%20Kazakhstan/DSC01244.JPG)
