@@ -5,3 +5,10 @@
 @import "bulma/elements/elements";
 @import "bulma/components/components";
 @import "bulma/layout/layout";
+
+.nzoi-logo {
+  background-image: url('/images/nzoi-logo.svg');
+  background-repeat: no-repeat;
+  width: 50px;
+}
+
