@@ -1,20 +1,21 @@
 <header class="header">
-  <div class="container">
-    <div class="header-left">
-      <a class="header-item" href="/">
-        NZOI
-      </a>
-      
-      {% assign nodes = site.pages | sort: "weight" %}
-      
-      {% for nodes in nodes %}
-        {% if nodes.url == page.url %}
-          <a class="header-tab is-active" href="{{nodes.url}}" class="active">{{nodes.title}}</a>
+<div class="container">
+  <div class="header-left">
+    <a class="header-item" href="/">
+      NZOI
+    </a>
+
+    {% assign nodes = site.pages | sort: "weight" %}
+    {% for node in nodes %}
+      {% if node.weight %}
+        {% if node.url == page.url %}
+          <a class="header-tab is-active" href="{{node.url}}" class="active">{{node.title}}</a>
         {% else %}
-          <a class="header-tab" href="{{nodes.url}}">{{nodes.title}}</a>
+        <a class="header-tab" href="{{node.url}}">{{node.title}}</a>
         {% endif %}
-      {% endfor %}
-      
-    </div>
+      {% endif %}
+    {% endfor %}
+
   </div>
+</div>
 </header>
