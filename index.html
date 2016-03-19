@@ -7,36 +7,36 @@ weight: 0
 <section class="hero is-success is-large">
   <div class="hero-content">
     <div class="container">
-      <h1 class="title">
-        Full Height title
-      </h1>
-      <h2 class="subtitle">
-        Full Height subtitle
-      </h2>
+      <h1 class="title">New Zealand Olympiad in Informatics</h1>
+      <!--
+      <h2 class="subtitle">Full Height subtitle</h2>
+      -->
     </div>
   </div>
 </section>
 
+<!--
 <section class="section">
   <div class="container">
     <div class="heading">
-      <h1 class="title">Section</h1>
+      <h1 class="title">New Zealand Olympiad in Informatics</h1>
       <h2 class="subtitle">
         A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
       </h2>
-      <div class="content">
-        <p>NZOI is the New Zealand Informations Olympiad, one of a number of Secondary School Olympiads operating under the umbrella organisation known as, NZ Science Olympiads.</p>
-
-        <p>The NZOI's goals are to:
-        <ul>
-          <li>Provide training oppurtunities in Informatics to selected New Zealand students who are currently enrolled in a secondary school in New Zealand, or have been enrolled in the last 8 months.</li>
-          <li>To select students for the International Olmpiad in Informatics (IOI).</li>
-          <li>- To foster informatics and programming in high schools accross New Zealand</li>
-        </ul>
-        </p>
-
-        The IOI is the foremost high school programming contest in the world. Each year, about August, it is hosted by a different country. New Zealand first sent a team in 2006, to the 18th Olympiad.
-      </div>
     </div>
   </div>
 </section>
+-->
+{% assign sections = site.home_content | sort: "weight" %}
+{% for section in sections %}
+<section class=section>
+  <div class="container">
+    <a name="{{section.anchor}}"></a>
+    <h2 class="title">{{section.title}}</h2>
+    <div class="content">
+      {{section.content}}
+    </div>
+  </div>
+</section>
+{% endfor %}
+
