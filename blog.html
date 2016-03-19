@@ -7,14 +7,18 @@ weight: 50
 
 
 {% for post in site.posts limit:10 %}
-<div class="post box">
+<div class="section">
+  <div class="container">
+    <div class="post box">
 
-  <h2 class="subtitle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-  <div class="content">
-    {{ post.content | truncatewords:80}}
+      <div class="content">
+        {{ post.content | truncatewords:500}}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </div>
   </div>
-
-  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 </div>
 {% endfor %}
