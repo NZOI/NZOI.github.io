@@ -1,6 +1,6 @@
-var flickrApiKey = '35ca9893a15649318240594ad7dd98e7'; // Change to your flickr api key
-var flickrApiSecret = 'c440757b04345ffe'; // Change to your flickr api secret
-var flickrUserId = '141088533@N02'; // Change to your flickr User ID
+var flickrApiKey = '643d1d04d17c095827a9b9fa6fc885c4';
+var flickrApiSecret = 'a11d3901b07974f2';
+var flickrUserId = '139561736@N06';
 
 // Endpoint url and params
 var endpoint = 'https://api.flickr.com/services/rest/?method=';
