@@ -1,3 +1,45 @@
+- year: 2016
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: Victoria University
+      sponsor_logo: vic.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+- year: 2015
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: Victoria University
+      sponsor_logo: vic.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+- year: 2014
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: AUT
+      sponsor_logo: aut.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
 - year: 2013
   sponsors:
     -
