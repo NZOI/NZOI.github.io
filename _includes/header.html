@@ -9,11 +9,15 @@
         {% if node.url == page.url %}
           <a class="header-tab is-active" href="{{node.url}}" class="active">{{node.title}}</a>
         {% else %}
-        <a class="header-tab" href="{{node.url}}">{{node.title}}</a>
+          <a class="header-tab" href="{{node.url}}">{{node.title}}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
 
+  </div>
+  <div class="header-right">
+    <a class="header-tab" href="https://train.nzoi.org.nz/">Training</a>
+    <a class="header-tab" href="http://nzic.nzoi.org.nz/">NZ Informatics Competition</a>
   </div>
 </div>
 </header>
