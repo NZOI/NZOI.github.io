@@ -1,28 +1,28 @@
 ---
-title: Rules
+title: 2015 Rules
 layout: nzic_page
-nzic_weight: 20
+nzic_weight: -1
 ---
 
-## Contest Rules
+# Contest Rules 2015
 
 These are subject to change until each contest begins.
 
-### Eligibility
+## Eligibility
 
 All current secondary (or intermediate) school students in New Zealand.
 
-### Supervision
+## Supervision
 
 All official competitors must be supervised. The supervisor may be a teacher, volunteering parent (recommended by a teacher) or a trusted non-competing senior student (school prefect recommended by a teacher).
 
 To recommend a supervisor other than a teacher, please ask a teacher to email us directly on who will supervise and the location.
 
-### Contest environment
+## Contest environment
 
 #### Contest system
 
-Each contest will be held online. After logging into [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/), the contest will appear at the start time. When ready, students may start the contest. The 3 hours will begin at that time. The problems will be visible on the contest page, and submissions may be made from there. To submit a solution, students submit the source code, which will be compiled and executed on the judging system.
+Each contest will be held online. After logging into [](http://train.nzoi.org.nz/)[http://train.nzoi.org.nz/](http://train.nzoi.org.nz/), the contest will appear at the start time. When ready, students may start the contest. The 3 hours will begin at that time. The problems will be visible on the contest page, and submissions may be made from there. To submit a solution, students submit the source code, which will be compiled and executed on the judging system.
 
 After the submission is judged, the results will appear immediately. Students may use this to fix any bugs. There are no guarantees on how long it might take for the submission to be judged, if there are a large number of submissions made at the same time.
 
@@ -44,7 +44,7 @@ For power users, we suggest that the compiler be made available on the command l
 
 #### Documentation and other material during the contest
 
-While competing, students may only access the [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) website, or an official (static) language documentation site (language documentation installed locally may also be used). Electronic language documentation (but not source code) stored locally is also permitted. Forums or interactive websites are strictly forbidden.
+While competing, students may only access the [http://train.nzoi.org.nz/](http://train.nzoi.org.nz/) website, or an official (static) language documentation site (language documentation installed locally may also be used). Electronic language documentation (but not source code) stored locally is also permitted. Forums or interactive websites are strictly forbidden.
 
 Students may also use any printed material during the contest, including language documentation, textbooks or source code. These materials may not be shared.
 
@@ -64,14 +64,26 @@ Any questions related to the problems should be emailed to NZIC for a response.
 
 This is up to each individual school or supervisor. However, the time at which any students leave the contest early will need to be reported.
 
-### Scoring
+## Qualification for Final Round
+
+This is still subject to change. The final round will have 4 problems adding up to a score of 600 points.
+
+To enter, the results of the first 3 rounds will be used to qualify to enter this round. The expected ways to qualify are (subject to change):
+
+- rank in the top half of contestants
+- score at least ~120 points in any of the 1st 3 rounds
+- be invited to participate.
+
+At our discretion, unofficial contestants may be invited to participate in the final round officially based on their unofficial round 1-3 scores. However, unofficial scores will not be counted for the purpose of rankings for the season.
+
+## Scoring
 
 There may be slight modifications to scoring. These will be finalized closer to the time of the contests.
 
 There will be official scoreboards for individual students, and for schools.
 
-Each student will be scored for the year based on a weighted sum of their round 1-4 scores. The higher scores will have a larger weighting than lower scores.
+Each student will be scored for the year based on a weighted sum of their round 1-3 and final round scores. The higher scores in rounds 1-3 will be have a larger weighting than lower scores. The final round will be weighted the most.
 
-Each school will receive a score based on the weighted average of their top 3 students in each round. The score for the year will be the sum of each round.
+Each school will receive a score based on the weighted average of their top 3 students in each round (top 2 in the final round). The score for the year will be the sum (with the final round worth double).
 
 Based on the year's scores, we will guarantee a place in our January camp for up to 10 of the highest scoring students (depends on number of students competing in the final round, and normal camp fee applies). Other students will still have a chance to apply to come to our camp. We will offer a place to as many interested students as we can.
