@@ -17,7 +17,55 @@
   </div>
   <div class="header-right">
     <a class="header-tab" href="https://train.nzoi.org.nz/">Training</a>
-    <a class="header-tab" href="http://nzic.nzoi.org.nz/">NZ Informatics Competition</a>
+
+    <div class="dropdown">
+      <style scoped>
+        .dropdown-content {
+            display: none;
+        }
+        div.dropdown-content {
+            padding: 0;
+        }
+        .dropdown-content a {
+            display: block;
+            background-color: #FFFFFF;
+            text-align: left;
+            padding-left: 8px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+      </style>
+
+      {% if page.nzic_weight %}
+        <a href="/nzic/" class="header-tab is-active" id="nzic_dropbtn">NZ Informatics Competition</a>
+      {% else %}
+        <a href="/nzic/" class="header-tab" id="nzic_dropbtn">NZ Informatics Competition</a>
+      {% endif %}
+      
+      <script>$('#nzic_dropbtn').doubleTapToGo();</script>
+
+      <div class="dropdown-content header-item">
+        {% if '/nzic/' == page.url %}
+          <a href="/nzic/" class="is-active">Home</a>
+        {% else %}
+          <a href="/nzic/">Home</a>
+        {% endif %}
+
+        {% assign nodes = site.pages | sort: "nzic_weight" %}
+        {% for node in nodes %}
+          {% if node.nzic_weight > 0 %}
+            {% if node.url == page.url %}
+              <a href="{{node.url}}" class="is-active">{{node.title}}</a>
+            {% else %}
+              <a href="{{node.url}}">{{node.title}}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
 </header>
