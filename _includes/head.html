@@ -1,9 +1,24 @@
+{% assign title = page.title %}
+
+{% if title %}
+  {% if page.nzic_weight %}
+    {% if page.nzic_weight != 0 %}
+      {% assign title = title | append: ' - NZIC' %}
+    {% else %}
+      {% assign title = 'New Zealand Informatics Competition' %}
+    {% endif %}
+  {% endif %}
+  {% assign title = title | append: ' - NZOI' %}
+{% else %}
+  {% assign title = 'NZOI' %}
+{% endif %}
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ site.title}} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{title}}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="shortcut icon" type="image/ico" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}" />
@@ -11,4 +26,12 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script>
+/*
+	By Osvaldas Valutis, www.osvaldas.info
+	Available for use under the MIT License
+*/
+;(function(e,t,n,r){e.fn.doubleTapToGo=function(r){if(!("ontouchstart"in t)&&!navigator.msMaxTouchPoints&&!navigator.userAgent.toLowerCase().match(/windows phone os 7/i))return false;this.each(function(){var t=false;e(this).on("click",function(n){var r=e(this);if(r[0]!=t[0]){n.preventDefault();t=r}});e(n).on("click touchstart MSPointerDown",function(n){var r=true,i=e(n.target).parents();for(var s=0;s<i.length;s++)if(i[s]==t[0])r=false;if(r)t=false})});return this}})(jQuery,window,document);
+  </script>
 </head>
