@@ -22,7 +22,7 @@ To recommend a supervisor other than a teacher, please ask a teacher to email us
 
 #### Contest system
 
-Each contest will be held online. After logging into http://train.nzoi.org.nz/, the contest will appear at the start time. When ready, students may start the contest. The 3 hours will begin at that time. The problems will be visible on the contest page, and submissions may be made from there. To submit a solution, students submit the source code, which will be compiled and executed on the judging system.
+Each contest will be held online. After logging into [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/), the contest will appear at the start time. When ready, students may start the contest. The 3 hours will begin at that time. The problems will be visible on the contest page, and submissions may be made from there. To submit a solution, students submit the source code, which will be compiled and executed on the judging system.
 
 After the submission is judged, the results will appear immediately. Students may use this to fix any bugs. There are no guarantees on how long it might take for the submission to be judged, if there are a large number of submissions made at the same time.
 
@@ -32,7 +32,7 @@ Students may use any programming language supported by the site. Currently, thes
 
 Because Python and Ruby are interpreted, it is possible that the required algorithms on some problems cannot be implemented efficiently, causing a timeout, and scoring only ~50-70%. If possible, there will be enough time for all languages, but this is sometimes not possible as a highly optimized but inefficient solution would otherwise pass. We will not increase the time limit for interpreted languages because this cannot be done fairly (C extensions may be used in parts of the standard libraries). Students who can solve these problems, but regularly timeout on the largest test cases are advised to use a compiled language.
 
-Please note that with Java, the source code will be put in a file called Main.java, so submissions must use a class named Main.
+Please note that with Java, the source code will be put in a file called `Main.java`, so submissions must use a class named `Main`.
 
 #### Local editors and compilers
 
@@ -44,7 +44,7 @@ For power users, we suggest that the compiler be made available on the command l
 
 #### Documentation and other material during the contest
 
-While competing, students may only access the http://train.nzoi.org.nz/ website, or an official (static) language documentation site (language documentation installed locally may also be used). Electronic language documentation (but not source code) stored locally is also permitted. Forums or interactive websites are strictly forbidden.
+While competing, students may only access the [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) website, or an official (static) language documentation site (language documentation installed locally may also be used). Electronic language documentation (but not source code) stored locally is also permitted. Forums or interactive websites are strictly forbidden.
 
 Students may also use any printed material during the contest, including language documentation, textbooks or source code. These materials may not be shared.
 
