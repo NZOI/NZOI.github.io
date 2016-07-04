@@ -4,9 +4,9 @@ layout: nzic_page
 nzic_weight: -1
 ---
 
-<h1>NZIC 2015 Round 2 Results</h1>
+# NZIC 2015 Round 2 Results
 
-<h2 id="school-results">School Results</h2>
+## School Results
 
 <table class="tableizer-table" style="text-align: right;">
  <tr class="tableizer-firstrow">
@@ -67,7 +67,7 @@ nzic_weight: -1
 </tr>
 </table>
 
-<h2 id="individual-results">Individual Results</h2>
+## Individual Results
 
 <table class="tableizer-table" style="text-align: right;">
     <tr class="tableizer-firstrow">
