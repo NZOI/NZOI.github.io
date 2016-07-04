@@ -39,13 +39,13 @@
         }
       </style>
 
+      <script>$('.dropdown').doubleTapToGo();</script>
+
       {% if page.nzic_weight %}
-        <a href="/nzic/" class="header-tab is-active" id="nzic_dropbtn">NZ Informatics Competition</a>
+        <a href="/nzic/" class="header-tab is-active">NZ Informatics Competition</a>
       {% else %}
-        <a href="/nzic/" class="header-tab" id="nzic_dropbtn">NZ Informatics Competition</a>
+        <a href="/nzic/" class="header-tab">NZ Informatics Competition</a>
       {% endif %}
-      
-      <script>$('#nzic_dropbtn').doubleTapToGo();</script>
 
       <div class="dropdown-content header-item">
         {% if '/nzic/' == page.url %}
