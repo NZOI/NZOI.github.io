@@ -2,7 +2,7 @@
 
 {% if title %}
   {% if page.nzic_weight %}
-    {% if page.nzic_weight > 0 %}
+    {% if page.nzic_weight != 0 %}
       {% assign title = title | append: ' - NZIC' %}
     {% else %}
       {% assign title = 'New Zealand Informatics Competition' %}
