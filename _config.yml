@@ -9,11 +9,11 @@
 title: 'NZOI'
 email: camp@nzoi.org.nzm
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  NZOI is the New Zealand Olympiad in Informatics,
+  one of a number of Secondary School Olympiads operating
+  under the umbrella organisation known as, NZ Science Olympiads.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://nzoi.org.nz" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
