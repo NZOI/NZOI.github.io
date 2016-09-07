@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "IOI 2016 results"
+date:   2016-09-07
+---
+
+The 28th IOI was held in Kazan, Russia from August 12 to August 19 2016. The New Zealand team for 2016, consisted of Jonathan Khoo (Mount Roskill Grammar), Christopher Brown (Christ’s College), Andrew Chen (Auckland International College) and Chris Jung (Christ's College).
+
+There were 2 competition days where 3 problems are presented each day with 5 hours to solve them. Sub tasks can be attempted in any problem for partial marks. Tension was high on the first contest day when Jonathan successfully completed the first problem with the full 100 points, following up with 64 points in the second problem and 23 points in the third problem. 
+
+After two days of competition, Jonathan Khoo and Andrew Chen both won bronze medals, scoring 293 and 238 points respectively. Out of 308 official contestants from 81 countries, Jonathan placed 104th, and Andrew placed 145th.  Christopher scored 238 placing 156th, and Chris Jung scored 154, placing 215th. This is an excellent result from the team, despite Chris spending two nights in a Russian hospital with suspected pneumonia!
+
+Apart from the competition days, the team had several excursions, including visiting many local attractions. The embankment walk along the side of the Kazanka river was an early highlight with students enjoying the bikes, pedal cars, skates and other activities available. The UNESCO World Heritage site - the Kazan Kremlin - astounded all teams with its beautiful historic buildings. Another highlight was the excursion to the impressive development of the Innapolis IT University and the beautiful island town of Sviyazhsk
+
+The next IOI will be held in Tehran, Iran from July 28 to August 4.
+
+Thanks to our sponsors for making the trip possible. A big thank you also to Ronald Chan for all his work and time spent running the selection contests, selecting the team, and his efforts all year in training the team for this contest.
+
+![team photo](https://farm9.staticflickr.com/8272/29227267600_ab1504de04_b_d.jpg)
