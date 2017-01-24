@@ -1,16 +1,22 @@
 ---
 title: Rules
 layout: nzic_page
-nzic_weight: 20
+nzic_weight: -1
 ---
 
-## Contest Rules 2017
+## Contest Rules 2016
 
 These are subject to change until each contest begins.
 
 ### Eligibility
 
-All current secondary or intermediate school students in New Zealand.
+All current secondary (or intermediate) school students in New Zealand.
+
+### Supervision
+
+All official competitors must be supervised. The supervisor may be a teacher, volunteering parent (recommended by a teacher) or a trusted non-competing senior student (school prefect recommended by a teacher).
+
+To recommend a supervisor other than a teacher, please ask a teacher to email us directly on who will supervise and the location.
 
 ### Contest environment
 
@@ -22,7 +28,7 @@ After the submission is judged, the results will appear immediately. Students ma
 
 #### Programming languages
 
-Students may use any programming language supported by the site. Currently, these are C++ (C++11, C++03), C (C99), Java (1.6), Python (2.7, 3.4), Ruby (2.2) and Haskell (2010).
+Students may use any programming language supported by the site. Currently, these are C++2011, C++2003, C (C99), Java (1.6), Python (2.7, 3.4), Ruby (2.2) and Haskell (2010).
 
 Because Python and Ruby are interpreted, it is possible that the required algorithms on some problems cannot be implemented efficiently, causing a timeout, and scoring only ~50-70%. If possible, there will be enough time for all languages, but this is sometimes not possible as a highly optimized but inefficient solution would otherwise pass. We will not increase the time limit for interpreted languages because this cannot be done fairly (C extensions may be used in parts of the standard libraries). Students who can solve these problems, but regularly timeout on the largest test cases are advised to use a compiled language.
 
@@ -46,15 +52,21 @@ Students may not access or use any electronically stored source code, whether it
 
 #### Help
 
-Students may ask a supervisor questions on administrative tasks, such as, when the contest ends or how to use the website to make a submission.
+Students may ask the supervisor questions on administrative tasks, such as, when the contest ends or how to use the website to make a submission.
 
 Questions such as how to solve a problem, how use a language feature, or where a bug is in a program will not be answered. The student should be able to find out how to use a language feature by reading the language documentation.
 
 If a student is new to a programming language, we suggest that they bring printed sample source code for reference.
 
-Any questions related to the problems should be emailed to <nzic@nzoi.org.nz> for a response.
+Any questions related to the problems should be emailed to NZIC for a response.
+
+#### Leaving early
+
+This is up to each individual school or supervisor. However, the time at which any students leave the contest early will need to be reported.
 
 ### Scoring
+
+There may be slight modifications to scoring. These will be finalized closer to the time of the contests.
 
 There will be official scoreboards for individual students, and for schools.
 
@@ -62,6 +74,4 @@ Each student will be scored for the year based on a weighted sum of their round 
 
 Each school will receive a score based on the weighted average of their top 3 students in each round. The score for the year will be the sum of each round.
 
-### Cheating
-
-Cheating will be punished by disqualification.
+Based on the year's scores, we will guarantee a place in our January camp for up to 10 of the highest scoring students (depends on number of students competing in the final round, and normal camp fee applies). Other students will still have a chance to apply to come to our camp. We will offer a place to as many interested students as we can.
