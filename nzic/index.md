@@ -4,7 +4,7 @@ layout: nzic_page
 nzic_weight: 0
 ---
 
-The NZIC contest series, run by the New Zealand Olympiad in Informatics, will be held again in 2017. There will be 3 regular rounds held throughout the year. The difficulty ranges from entry-level problems to more challenging problems. To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/).
+The NZIC contest series, run by the New Zealand Olympiad in Informatics, will be held again in 2017. There will be 3 regular rounds held throughout the year. The difficulty ranges from entry-level problems to more challenging problems. To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/). The contest is held on the train site, and the problems are of a similar format.
 
 The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools.
 
@@ -23,6 +23,10 @@ The dates for the three rounds will be as follows:
 * Round One: Monday 3rd April - Sunday 9th April
 * Round Two: Monday 26th June - Sunday 2nd July
 * Round Three: Monday 14th August - Sunday 20th August
+
+Students may log in and start the competition at any point between these dates. Once a student has begun the competition they have three hours to view the problems and submit solutions.
+
+If you're at a school with multiple students wanting to participate you might want to arrange to all sit it at the same time, either after school or during class time (with a teacher's support).
 
 ### What is Informatics?
 

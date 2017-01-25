@@ -64,4 +64,4 @@ Each school will receive a score based on the weighted average of their top 3 st
 
 ### Cheating
 
-Cheating will be punished by disqualification.
+Cheating will result in disqualification.
