@@ -6,6 +6,12 @@ nzic_weight: 90
 
 ## Past Contests
 
+## 2016
+- [Scoreboard](https://docs.google.com/spreadsheets/d/16vOMjWpXa0ZvoMRvajdfGyNYAGWaLIPjijcrSdEfE4c/pubhtml)
+- [About](past/2016/about.html)
+- [Schedule](past/2016/schedule.html)
+- [Rules](past/2016/rules.html)
+
 ## 2015
 - [News](past/2015/home.html)
 - [FAQ](past/2015/faq.html)

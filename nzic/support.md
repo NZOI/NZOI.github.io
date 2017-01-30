@@ -28,5 +28,5 @@ If you don't have money, you can still support us. Whether you are a past studen
 
 You can also help us by getting more people interested in informatics!
 
-set up a programming club at your school
-spread the word - show students where the training resources are and tell your students about us
+- Set up a programming club at your school
+- Spread the word - show students where the training resources are and tell your students about us
