@@ -4,25 +4,21 @@ layout: nzic_page
 nzic_weight: 0
 ---
 
-The NZIC contest series, run by the New Zealand Olympiad in Informatics, will be held again in 2017. There will be 3 regular rounds held throughout the year. The difficulty ranges from entry-level problems to more challenging problems. To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/). The contest is held on the train site, and the problems are of a similar format.
+The NZIC contest series, run by the New Zealand Olympiad in Informatics, will be held again in 2018. There will be 3 regular rounds held throughout the year. The difficulty ranges from entry-level problems to more challenging problems. To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) and look at past NZIC rounds. The contest is held on this train site, and the problems are of a similar format.
 
 The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools.
 
-### 2017
+### 2018
 
-For 2017, we're making a couple of changes to the competition. Firstly, we're removing the supervision requirement. This is to lower the barrier to entry and encourage more students to take part. Cheating will result in disqualification, and really doesn't help you to learn about Informatics either.
-
-Secondly, we are only running three rounds of the competition. This is so that we can focus more on creating balanced contests with good test data, and because many students are very busy towards the end of the year.
-
-Thirdly, we're trying to tailor the problems and problem statements towards more of a range of students. In each contest there should be a problem that is approachable to a student who has just learned Python in school, as well as a problem that is difficult for the most advanced students. We hope that contest discussions can help students work towards solving more problems over the year.
+In 2018, we're retaining the changes that we made in 2017. That means three rounds, no supervision requirement, and a wide range of problem difficulties.
 
 ### Dates
 
 The dates for the three rounds will be as follows:
 
-* Round One: Monday 3rd April - Sunday 9th April
-* Round Two: Monday 26th June - Sunday 2nd July
-* Round Three: Monday 14th August - Sunday 20th August
+* Round One: Monday 2nd April - Sunday 8th April
+* Round Two: Monday 25th June - Sunday 1st July
+* Round Three: Monday 13th August - Sunday 19th August (tentative)
 
 Students may log in and start the competition at any point between these dates. Once a student has begun the competition they have three hours to view the problems and submit solutions.
 
