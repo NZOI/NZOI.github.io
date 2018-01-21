@@ -26,9 +26,7 @@ There will be 4 or 5 problems in each contest. The problems range in difficulty,
 
 ### Are there any tips for scoring?
 
-After doing the easier problems, it isn't over even if you don't know much about algorithms! Partial points are awarded for the more difficult problems, depending on what subtasks you solve. At the bottom of each problem statement, there may be 1 or more subtasks listed, which specify what additional constraints certain test cases will meet. If your solution solves these smaller or simpler test cases, you can increase your contest score. Even if you are unable to fully solve a Hard problem, you shouldn't miss out on these points.
-
-There may also be hidden subtasks - these are subtasks where some points can be earned, but where they are not explicitly specified by the problem statement. These may be for inefficient solutions, but other subtasks may have been included because they are a better guide towards the ideas required for a full solution. Alternatively, some subtasks may test the correctness of your solution when given edge cases.
+After doing the easier problems, it isn't over even if you don't know much about algorithms! Partial points are awarded for the more difficult problems, depending on what subtasks you solve. At the bottom of each problem statement, there may be one or more subtasks listed, which specify what additional constraints certain test cases will meet. If your solution solves these smaller or simpler test cases, you can increase your contest score. Even if you are unable to fully solve a Hard problem, you shouldn't miss out on these points.
 
 ### What does the judging feedback mean?
 

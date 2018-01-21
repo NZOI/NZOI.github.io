@@ -4,13 +4,9 @@ layout: nzic_page
 nzic_weight: 0
 ---
 
-The NZIC contest series, run by the New Zealand Olympiad in Informatics, will be held again in 2018. There will be 3 regular rounds held throughout the year. The difficulty ranges from entry-level problems to more challenging problems. To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) and look at past NZIC rounds. The contest is held on this train site, and the problems are of a similar format.
+The NZIC contest series, run by the New Zealand Olympiad in Informatics, will be held again in 2018. There will be 3 regular rounds held throughout the year. The difficulty ranges from entry-level problems to more challenging problems.
 
-The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools.
-
-### 2018
-
-In 2018, we're retaining the changes that we made in 2017. That means three rounds, no supervision requirement, and a wide range of problem difficulties.
+The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools. View past year's scoreboards [here](past.html).
 
 ### Dates
 
@@ -30,4 +26,8 @@ In the context of this competition, informatics involves problem solving with co
 
 ### What now?
 
-If you are a student, or a teacher of potentially interested students, email us to register your interest at <nzic@nzoi.org.nz>. We'll email you before the first contest to check you're all registered and set up to participate.
+To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) and look at past NZIC rounds. The contest is held on this train site, and the problems are of a similar format.
+
+Before the first contest, you should read the [rules](rules.html). If you have questions about the contest, read the [FAQ](faq.html).
+
+If you have any further questions, want to be added to the list for reminder emails, or just want to say hi, email us at [nzic@nzoi.org.nz](mailto:nzic@nzoi.org.nz).
