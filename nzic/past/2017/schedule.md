@@ -1,7 +1,7 @@
 ---
 title: Schedule
 layout: nzic_page
-nzic_weight: 10
+nzic_weight: -1
 ---
 
 ## Contest Schedule 2017
