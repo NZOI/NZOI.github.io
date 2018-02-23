@@ -1,7 +1,27 @@
+- year: 2018
+  sponsors:
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: Solnet
+      sponsor_logo: solnet.png
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: An Anonymous Sponsor
+      sponsor_logo:
 - year: 2017
   sponsors:
     -
       name: Tobias Thierer
+      sponsor_logo:
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: An Anonymous Sponsor
       sponsor_logo:
 - year: 2016
   sponsors:
@@ -189,4 +209,3 @@
     -
       name: Smart Computer Systems
       sponsor_logo: smartcomputersystems.png
-
