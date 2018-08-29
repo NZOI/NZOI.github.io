@@ -12,7 +12,8 @@ weight: 40
     {% for sponsors in site.data.sponsors %}
     <h3 class="subtitle">{{sponsors.year}}</h3>
     <div class="columns">
-      {% for sponsor in sponsors.sponsors %}
+      {% assign sortedSponsors = sponsors.sponsors | sort: 'name' %}
+      {% for sponsor in sortedSponsors %}
       {% assign loopindex = forloop.index | modulo: 4 %}
       {% if loopindex == 1 %}
     </div>
