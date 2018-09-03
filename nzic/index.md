@@ -14,7 +14,7 @@ The dates for the three rounds will be as follows:
 
 * Round One: Monday 2nd April - Sunday 8th April
 * Round Two: Monday 25th June - Sunday 1st July
-* Round Three: Monday 13th August - Sunday 19th August (tentative)
+* Round Three: Monday 13th August - Sunday 19th August
 
 Students may log in and start the competition at any point between these dates. Once a student has begun the competition they have three hours to view the problems and submit solutions.
 
