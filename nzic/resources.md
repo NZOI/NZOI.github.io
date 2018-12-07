@@ -19,7 +19,7 @@ Sources of problems (other than our own [train.nzoi.org.nz](train.nzoi.org.nz)):
 - Australia: [http://orac.amt.edu.au/cgi-bin/train/hub.pl](http://orac.amt.edu.au/cgi-bin/train/hub.pl)
 - Croatia: [http://hsin.hr/coci/](http://hsin.hr/coci/)
 
-You can also find problems at online these judges:
+You can also find problems at these online judges:
 
 - [http://codeforces.com/](http://codeforces.com/)
 - [https://uva.onlinejudge.org](https://uva.onlinejudge.org)
