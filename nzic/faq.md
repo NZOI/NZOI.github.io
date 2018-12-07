@@ -6,27 +6,36 @@ nzic_weight: 40
 
 ## Frequently Asked Questions
 
+- [Are there any prizes?](#are-there-any-prizes)
+- [How can I practice?](#how-can-i-practice)
+- [What type of problems will be in the contest?](#what-type-of-problems-will-be-in-the-contest)
+- [How difficult are the problems in each contest?](#how-difficult-are-the-problems-in-each-contest)
+- [Any tips for scoring?](#any-tips-for-scoring)
+- [What does the judging feedback mean?](#what-does-the-judging-feedback-mean)
+
+See below for answers.
+
 ### Are there any prizes?
 
-Unfortunately, there are no prizes. However, a good performance will give you bragging rights when the results are published, and will also ensure you get a place in the January training camp.
+Unfortunately, there are no prizes. However, a good performance will give you bragging rights when the results are published. Contestants are also often invited to our January training camp.
 
-If you would like to sponsor a prize, please contact us. We are always looking for sponsors so that we can continue to send a team to represent NZ at the IOI each year, so please consider a cash donation to the NZOI.
+If you would like to sponsor a prize, please [contact us](mailto:nzic@nzoi.org.nz).
 
 ### How can I practice?
 
-Once you register on our training site, you will have access to some easier problems. Try practicing on problems from past NZIC contests.
+Visit [train.nzoi.org.nz](train.nzoi.org.nz).
 
 ### What type of problems will be in the contest?
 
-The style of problems places an emphasis on problem solving skills, including logic and reasoning and other mathematical skills. Harder problems focus on the design of efficient and correct algorithms. The problem input and output formats are kept as simple as possible to minimise pre-processing. We aim to test problem solving skills rather than the ability to implement logic extraneous to the core problem on top of algorithms without bugs. Therefore, output will usually consist of a single number that proves that the problem was solved without requiring the output of the solution itself.
+The style of problems places an emphasis on problem solving skills, including logic and reasoning and other mathematical skills. Easier problems test a basic understanding and your ability to code elegant solutions. Harder problems focus on the design of efficient and correct algorithms. We attempt to keep input and output formats as simple as possible to minimise pre-processing. We aim to test problem solving skills rather than the ability to implement logic extraneous to the core problem. Therefore, output will usually consist of a single number that proves that the problem was solved without requiring the output of the solution itself.
 
 ### How difficult are the problems in each contest?
 
-There will be 4 or 5 problems in each contest. The problems range in difficulty, with the easiest being approachable to a beginner programmer, and the hardest being challenging for a student who has attended January Camp.
+There will be about 4 or 5 problems in each contest. The problems range in difficulty, with the easiest being approachable to a beginner programmer, and the hardest being challenging (hopefully) for a student who has attended our January Camp.
 
-### Are there any tips for scoring?
+### Any tips for scoring?
 
-After doing the easier problems, it isn't over even if you don't know much about algorithms! Partial points are awarded for the more difficult problems, depending on what subtasks you solve. At the bottom of each problem statement, there may be one or more subtasks listed, which specify what additional constraints certain test cases will meet. If your solution solves these smaller or simpler test cases, you can increase your contest score. Even if you are unable to fully solve a Hard problem, you shouldn't miss out on these points.
+After doing the easier problems, it isn't over even if you don't know much about algorithms! Partial points are awarded for the more difficult problems, depending on what subtasks you solve. At the bottom of each problem statement, there may be one or more subtasks listed, which specify what additional constraints certain test cases will meet. **If your solution solves these smaller or simpler test cases, you can increase your contest score. Even if you are unable to fully solve a Hard problem, you shouldn't miss out on these points.**
 
 ### What does the judging feedback mean?
 
@@ -41,11 +50,3 @@ Execution may fail due to a number of reasons. If it exceeds the time allowed, i
 Test cases are grouped into test sets. To score the points for the set, all test cases must be correct. These are often used to prevent lucky guesses of a single test case from scoring any points.
 
 The result of the submission is shown as a percentage out of 100 on the submission's page. However, each problem in the contest will be re-scaled up to its maximum number of points. The re-scaled score is shown on the contest page. The points scored for each problem in the contest will be rounded down, before being added up to obtain the score for each contestant.
-
-### What topics might a problem require?
-
-The answer on problem difficulty gives a general idea of some of the topics relevant to each category. The problems and algorithms are based on the IOI syllabus. The topics covered are those which can be derived from elementary mathematics, and the main topics relevant to informatics are based on discrete mathematics. Topics in the IOI syllabus, but which were not mentioned in the guidelines above may be included in the NZIC if the problem's difficulty matches the category.
-
-Excluded topics are max-flow, strongly connected components, hash tables, amortized analysis of algorithmic complexity or poorly conditioned problems for floating point numbers.
-
-Implementation of self-balancing binary search trees are now included.

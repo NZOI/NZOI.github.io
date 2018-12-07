@@ -1,5 +1,5 @@
 ---
-title: Training Camp
+title: January Training Camp
 anchor: camp
 weight: 3
 ---
