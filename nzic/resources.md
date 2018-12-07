@@ -11,7 +11,7 @@ Here are some guides you might also find useful:
 - [Using python in contests](resources/using-python-in-contests.pdf)
 - [Installing and using C++](resources/cpp-install-instructions.pdf)
 
-A good book on [competitive programming](http://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf).
+A good book on [competitive programming](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf).
 
 Sources of problems (other than our own [train.nzoi.org.nz](train.nzoi.org.nz)):
 
