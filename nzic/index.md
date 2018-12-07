@@ -8,11 +8,11 @@ The NZIC online programming contest series, run by the New Zealand Olympiad in I
 
 The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools. View past year's scoreboards [here](past.html).
 
-#### Registration
+### Registration
 
 [Students can register for round one here!](https://goo.gl/forms/vr4I7Cy6nLVNIfWb2) Round one is in February 2019. You will receive an email reminder closer to the contest and be added to your mailing list. You must register for each round independently.
 
-#### What is Informatics?
+### What is Informatics?
 
 In the context of this competition, informatics involves problem-solving with computer programs. Problems of a mathematical nature are posed, and students will write a computer program to solve the problem. The competition tests the efficiency and correctness of the algorithms the students come up with. The use of a programming language is not the goal itself, but rather a method by which a solution is expressed. A big part of informatics is breaking down and understanding the problem itself.
 
