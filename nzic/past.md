@@ -4,11 +4,9 @@ layout: nzic_page
 nzic_weight: 90
 ---
 
-## Past Contests
+## Past Winners and Contests
 
 ### 2018
-
-Top students
 
 1. Zhiyuan Qi (Auckland Grammar School)
 2. Nathan Smithies (Middleton Grange School)
@@ -18,8 +16,6 @@ Top students
 - [Round 3 Breakdown](https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1hqkqhSF9eBvLDYuHmfcje9mNdL-11N-TYhSlkBW54Y2t6aDc7sNW_ltaIsFToxTZ0Vi1kjxt7WE/pubhtml)
 
 ### 2017
-
-Top students
 
 1. Chris Jung (Christ's College)
 2. Elijah Shadbolt (Long Bay College)
@@ -32,8 +28,6 @@ Top students
 
 ### 2016
 
-Top students
-
 1. Jonathan Khoo (Mount Roskill Grammar School)
 2. Andrew Chen (Auckland International College)
 3. Christopher Brown (Christ's College)
@@ -44,8 +38,6 @@ Top students
 - [Rules](past/2016/rules.html)
 
 ### 2015
-
-Top students
 
 1. Byung-Hoon Cho (Auckland Grammar School)
 2. Christopher Brown (Christ's College)
