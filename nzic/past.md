@@ -14,6 +14,7 @@ nzic_weight: 90
 
 - [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vRG-dR_HF4y55LuOJGE0LYhAa_VvnufGbcO7myQjhjdiV0oM0e-lPI9LhOA3Dr9ZHuiCyXobOG0KKPg/pubhtml)
 - [Round 3 Breakdown](https://docs.google.com/spreadsheets/d/e/2PACX-1vTP1hqkqhSF9eBvLDYuHmfcje9mNdL-11N-TYhSlkBW54Y2t6aDc7sNW_ltaIsFToxTZ0Vi1kjxt7WE/pubhtml)
+- [Round 3 Full Solutions](past/2018/NZIC_R3_2018_Solutions.pdf)
 
 ### 2017
 
