@@ -26,7 +26,7 @@ Traditionally, each round has been held towards the end of term time. However, w
 
 ### Overview
 
-Log in to our training site and start the competition at any point between the above dates. Once a student has begun the competition they typically have **3 hours** to view the problems and submit solutions. During the 3 hours, students are **not** permitted to access any websites (other than [train.nzoi.org.nz](train.nzoi.org.nz)) or collaborate with any others. This is an individual contest. For more details, view the [rules](rules.html).
+Log in to our training site and start the competition at any point between the above dates. Once a student has begun the competition they typically have **3 hours** to view the problems and submit solutions. During their 3 hours, students are **not** permitted to access any websites (other than [train.nzoi.org.nz](train.nzoi.org.nz)) or collaborate with any others. This is an individual contest. You are, however, permitted to consult the documentation for your chosen programming language during the contest - remembering syntax can be hard. For details, please view the offical [rules](rules.html).
 
 If you're at a school with multiple students wanting to participate you might want to arrange to all sit it at the same time, either after school or during class time (with a teacher's support).
 
