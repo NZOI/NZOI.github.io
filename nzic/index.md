@@ -10,7 +10,7 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-[Students can register for round one here!](https://goo.gl/forms/vr4I7Cy6nLVNIfWb2) Round one is in February 2019. You will receive an email reminder closer to the contest and be added to our mailing list. You must register for each round independently.
+[Late registration for round 1 here.](https://goo.gl/forms/vr4I7Cy6nLVNIfWb2) The round is open from Monday 18th Feb until Sunday.
 
 ### What is Informatics?
 
