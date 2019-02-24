@@ -10,7 +10,9 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-[Late registration for round 1 here.](https://goo.gl/forms/vr4I7Cy6nLVNIfWb2) The round is open from Monday 18th Feb until Sunday.
+If you competed in Round 1 then you are automatically registered for Round 2.
+
+Otherwise, [Register for Round 2 here.](https://goo.gl/forms/AgSvxImsJE7AGzxR2)
 
 ### What is Informatics?
 
@@ -20,7 +22,7 @@ In the context of this competition, informatics involves problem-solving with co
 
 Traditionally, each round has been held towards the end of term time. However, we are taking a different approach this year in an attempt to avoid mock exams, as highlighted in our 2018 survey. This means the first round will be very early in the year and the last two rounds will be held during term breaks. The dates for the three rounds will be as follows:
 
-* Round One: **Monday 18th Feb - Sunday 24th Feb**
+* <strike>Round One: **Monday 18th Feb - Sunday 24th Feb**</strike>
 * Round Two: **Monday 15th April - Sunday 21st April** (First week of Term 1 break)
 * Round Three: **Monday 8th July - Sunday 14th July** (First week of Term 2 break)
 
