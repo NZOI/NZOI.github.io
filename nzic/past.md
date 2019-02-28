@@ -6,6 +6,10 @@ nzic_weight: 90
 
 ## Past Winners and Contests
 
+### 2019
+
+- [Round 1 Full Solutions](past/2019/NZIC_2019_R1_Solutions.pdf)
+
 ### 2018
 
 1. Zhiyuan Qi (Auckland Grammar School)
