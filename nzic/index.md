@@ -10,9 +10,9 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-If you competed in Round 1 then you are automatically registered for Round 2.
+If you competed in Round 1 or 2 then you are automatically registered for Round 3. If you are not part of the NZIC 2019 group (under groups on the right when you log in) then please locate your confirmation email and follow the instructions. Email nzic@nzoi.org.nz if you experience issues.
 
-Otherwise, [Register for Round 2 here.](https://goo.gl/forms/AgSvxImsJE7AGzxR2)
+Otherwise, [register for Round 3 here.](https://forms.gle/HU1QBziguCEfX2f86)
 
 ### What is Informatics?
 
@@ -23,7 +23,7 @@ In the context of this competition, informatics involves problem-solving with co
 Traditionally, each round has been held towards the end of term time. However, we are taking a different approach this year in an attempt to avoid mock exams, as highlighted in our 2018 survey. This means the first round will be very early in the year and the last two rounds will be held during term breaks. The dates for the three rounds will be as follows:
 
 * <strike>Round One: **Monday 18th Feb - Sunday 24th Feb**</strike>
-* Round Two: **Monday 15th April - Sunday 21st April** (First week of Term 1 break)
+* <strike>Round Two: **Monday 15th April - Sunday 21st April** (First week of Term 1 break)</strike>
 * Round Three: **Monday 8th July - Sunday 14th July** (First week of Term 2 break)
 
 ### Overview
