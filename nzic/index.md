@@ -4,15 +4,13 @@ layout: nzic_page
 nzic_weight: 0
 ---
 
-The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2019! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level problems to more challenging problems. Past problems can be found on our [training website](https://train.nzoi.org.nz/).
+The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2019! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
 
 The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools. View past year's scoreboards [here](past.html).
 
 ### Registration
 
-If you competed in Round 1 or 2 then you are automatically registered for Round 3. If you are not part of the NZIC 2019 group (under groups on the right when you log in) then please locate your confirmation email and follow the instructions. Email nzic@nzoi.org.nz if you experience issues.
-
-Otherwise, [register for Round 3 here.](https://forms.gle/HU1QBziguCEfX2f86)
+The NZIC has concluded for 2019 and dates for 2020 have yet to be set. You can see the results and solutions for previous rounds [here](past.html). The previous problems are avaliable for you to solve on our [training website](https://train.nzoi.org.nz/).
 
 ### What is Informatics?
 
@@ -20,11 +18,11 @@ In the context of this competition, informatics involves problem-solving with co
 
 ### Dates
 
-Traditionally, each round has been held towards the end of term time. However, we are taking a different approach this year in an attempt to avoid mock exams, as highlighted in our 2018 survey. This means the first round will be very early in the year and the last two rounds will be held during term breaks. The dates for the three rounds will be as follows:
+We're all done for 2019. Dates for 2020 have yet to be set.
 
 * <strike>Round One: **Monday 18th Feb - Sunday 24th Feb**</strike>
 * <strike>Round Two: **Monday 15th April - Sunday 21st April** (First week of Term 1 break)</strike>
-* Round Three: **Monday 8th July - Sunday 14th July** (First week of Term 2 break)
+* <strike>Round Three: **Monday 8th July - Sunday 14th July** (First week of Term 2 break)</strike>
 
 ### Overview
 
@@ -43,8 +41,6 @@ See these pages for more info:
 
 ### What now?
 
-To practice, sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) and look at past NZIC rounds. The contest is held on this training site, and problems will be of a similar format.
-
-questions about the contest, read the [FAQ](faq.html).
+We recommend some practice first. Sign up at [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/) and have a go at some past NZIC rounds. The contest is held on this training site and problems will be of a similar format. You will also save reading time during the contest.
 
 If you have any further questions, want to be added to the list for reminder emails, or just want to say hi, email us at [nzic@nzoi.org.nz](mailto:nzic@nzoi.org.nz).
