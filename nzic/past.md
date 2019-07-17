@@ -8,9 +8,20 @@ nzic_weight: 90
 
 ### 2019
 
+1. Maayan Levy (Hillcrest High School)
+2. Eric Song (Burnside High School)
+3. Zhiyuan Qi (Auckland Grammar School)
+
+- Overall Rankings
+	- [Offical (PDF as of 17-07-19)](past/2019/NZIC_2019_Overall_Rankings_Official_Scoreboard.pdf)
+	- [Offical, Unoffical, and Schools (Google Sheet)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRFV2mkLN8rQfwUlrZF48WaxziLHrQ17AuZWBkJb4gikwMexhElOcqmqe2ZwxSlVRmDh4rYfeRaY2wp/pubhtml?gid=2143965639)
+- Round 3 Results
+	- [Offical (PDF as of 17-07-19)](past/2019/NZIC_2019_R3_Official_Scoreboard.pdf)
+	- [Offical, Unoffical, and Schools (Google Sheet)](https://docs.google.com/spreadsheets/d/e/2PACX-1vTtakgGq_OspB5H4y0gnWOBln4OitMOpdidug4LvFdtwLTxNcN42yRGHQTeM_pIzvGjt72jqyDI7mgK/pubhtml?gid=2143965639)
+- [Round 3 Full Solutions](past/2019/NZIC_2019_R3_Solutions.pdf)
 - [Round 2 Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRYuL9TbnnhKEWxJdCCGahvVQruNx_6zbGx9LPyrmYo2rF_ZVKVbpAlyhPHQh9B9P1hTIztaYWxCYmI/pubhtml?gid=2143965639)
 - [Round 2 Full Solutions](past/2019/NZIC_2019_R2_Solutions.pdf)
-- [Round 1 Results](https://docs.google.com/spreadsheets/d/e/2PACX-1vRPlwN0d0mWzetBbaBNP_zCwWV7PQFquS1BC88hTIKN8A0sTnJesVGnPaOKkCkzvITpNBIF5nHyU3nB/pubhtml)
+- [Round 1 Results](https://docs.google.com/spreadsheets/d/e/ 2PACX-1vRPlwN0d0mWzetBbaBNP_zCwWV7PQFquS1BC88hTIKN8A0sTnJesVGnPaOKkCkzvITpNBIF5nHyU3nB/pubhtml)
 - [Round 1 Full Solutions](past/2019/NZIC_2019_R1_Solutions.pdf)
 
 ### 2018
