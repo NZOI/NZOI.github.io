@@ -4,7 +4,7 @@ layout: nzic_page
 nzic_weight: 0
 ---
 
-The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2019! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implimentation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
+The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2019! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
 
 The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools. View past year's scoreboards [here](past.html).
 
