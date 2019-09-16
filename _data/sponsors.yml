@@ -1,3 +1,20 @@
+- year: 2019
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: Craig Nevill-Manning
+      sponsor_logo:
+    -
+      name: Programming Challenge 4 Girls
+      sponsor_logo: pc4g.png
 - year: 2018
   sponsors:
     -
