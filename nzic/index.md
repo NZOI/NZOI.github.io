@@ -12,6 +12,8 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 The NZIC has concluded for 2019 and dates for 2020 have yet to be set. You can see the results and solutions for previous rounds [here](past.html). The previous problems are avaliable for you to solve on our [training website](https://train.nzoi.org.nz/).
 
+Sign up to the [NZIC mailing list](https://forms.gle/ffK59FdJ5DLmBHgYA).
+
 ### What is Informatics?
 
 In the context of this competition, informatics involves problem-solving with computer programs. Problems of a mathematical nature are posed, and students will write a computer program to solve the problem. The competition tests the efficiency and correctness of the algorithms the students come up with. The use of a programming language is not the goal itself, but rather a method by which a solution is expressed. A big part of informatics is breaking down and understanding the problem itself.
