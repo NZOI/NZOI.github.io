@@ -22,9 +22,9 @@ In the context of this competition, informatics involves problem-solving with co
 
 We're all done for 2019. Dates for 2020 have yet to be set.
 
-* <strike>Round One: **Monday 18th Feb - Sunday 24th Feb**</strike>
-* <strike>Round Two: **Monday 15th April - Sunday 21st April** (First week of Term 1 break)</strike>
-* <strike>Round Three: **Monday 8th July - Sunday 14th July** (First week of Term 2 break)</strike>
+* Round One: **Monday 17th Feb - Sunday 23rd Feb**
+* Round Two: **Monday 13th April - Sunday 19th April** (First week of Term 1 break)
+* Round Three: **Monday 6th July - Sunday 12th July** (First week of Term 2 break)
 
 ### Overview
 
