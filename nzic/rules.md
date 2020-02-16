@@ -24,7 +24,7 @@ Inappropriate behaviour involves being dishonest, taking advantage of our system
 
 ### Eligibility
 
-Any person who is currently enrolled in a New Zealand secondary or intermediate school. Non-eligabile students may still compete but they will not be offically ranked.
+Any person who is currently enrolled in a New Zealand secondary or intermediate school. Non-eligible students may still compete but they will not be offically ranked.
 
 ### Contest environment
 
@@ -34,11 +34,11 @@ After the submission is judged, the results will appear immediately. Students ma
 
 #### Programming languages
 
-Students may use any programming language supported by the site. Currently, these are C++ (C++11, C++03), C (C99), Java (1.6), Python (2.7, 3.4), Ruby (2.2) and Haskell (2010).
+Students may use any programming language supported by the site. Currently, these are C++ (C++17, C++14), C (C11, C99), C# 8.0, Python 3.8,  JavaScript (V8 8.1), Java 11, Ruby 2.2, and Haskell 2010.
 
-Because Python and Ruby are interpreted, it is possible that the required algorithms on some problems cannot be implemented efficiently, causing a timeout, and scoring only ~50-70%. If possible, there will be enough time for all languages, but this is sometimes not possible as a highly optimized but inefficient solution would otherwise pass. We will not increase the time limit for interpreted languages because this cannot be done fairly (C extensions may be used in parts of the standard libraries). Students who can solve these problems, but regularly timeout on the largest test cases are advised to use a compiled language.
+Because Python, JavaScript, and Ruby are interpreted, it is possible that the required algorithms on some problems cannot be implemented efficiently, causing a timeout, and scoring only ~50-70%. If possible, there will be enough time for all languages, but this is sometimes not possible as a highly optimized but inefficient solution would otherwise pass. We will not increase the time limit for interpreted languages because this cannot be done fairly (C extensions may be used in parts of the standard libraries). Students who can solve these problems, but regularly timeout on the largest test cases are advised to use a compiled language.
 
-Please note that with Java, the source code will be put in a file called `Main.java`, so submissions must use a class named `Main`. At this stage, defining additional classes is not supported (sorry).
+Please note that with Java, the source code will be put in a file called `Main.java`, so submissions must use a class named `Main`.
 
 #### Local editors and compilers
 
