@@ -6,14 +6,14 @@ nzic_weight: 0
 
 The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2020! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
 
-The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools. View past year's scoreboards [here](past.html).
+The contest is open to all students currently enrolled in a secondary school (or intermediate) in New Zealand (students from year 7-13). There will be a scoreboard for individuals, and one for schools. You can view the results and solutions for previous rounds [here](past.html). Past problems are avaliable for practice on our [training website](https://train.nzoi.org.nz/).
 
 ### Registration
 
-The NZIC has concluded for 2019 and dates for 2020 have been set below. You can see the results and solutions for previous rounds [here](past.html). The previous problems are avaliable for you to solve on our [training website](https://train.nzoi.org.nz/).
+The first round of NZIC 2020 is over, but registration is still open for rounds two and three! If you have successfully registered for round one, you do not need to resubmit the registration form.
 
-- Sign up to the [NZIC mailing list](https://forms.gle/ffK59FdJ5DLmBHgYA).
-- [Register for NZIC Round 1](https://forms.gle/9DCjAEobwcRNvNHEA).
+- [Register for NZIC 2020](https://forms.gle/9DCjAEobwcRNvNHEA).
+- [Sign up to the NZIC mailing list](https://forms.gle/ffK59FdJ5DLmBHgYA).
 
 ### What is Informatics?
 
@@ -21,7 +21,7 @@ In the context of this competition, informatics involves problem-solving with co
 
 ### Dates
 
-* Round One: **Monday 17th Feb - Sunday 23rd Feb**
+* <strike>Round One: **Monday 17th Feb - Sunday 23rd Feb**</strike>
 * Round Two: **Monday 13th April - Sunday 19th April** (First week of Term 1 break)
 * Round Three: **Monday 6th July - Sunday 12th July** (First week of Term 2 break)
 
