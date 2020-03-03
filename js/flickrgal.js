@@ -1,75 +1,197 @@
-var flickrApiKey = '643d1d04d17c095827a9b9fa6fc885c4';
-var flickrApiSecret = 'a11d3901b07974f2';
-var flickrUserId = '139561736@N06';
+if (typeof window !== 'undefined') window.addEventListener("load", function(event) {
+  FlickrGal.init();
+});
 
-// Endpoint url and params
-var endpoint = 'https://api.flickr.com/services/rest/?method=';
-var params = '&format=json'
-  + '&nojsoncallback=1' 
-  + '&api_key=' 
-  + flickrApiKey 
-  + '&user_id=' 
-  + flickrUserId;
+function Flickr(options) {
+  var APIKEY = options.apiKey;
+  var USERID = options.userId;
 
-// Request methods
-var methodCollection = 'flickr.collections.getTree';
-var methodPhotos = 'flickr.photosets.getPhotos';
+  function handleRequest(event) {
+    var request = event.target;
+    var responseData = JSON.parse(request.responseText);
 
-var collections = []; // Stores collection information
-var albums = []; // Stores full album / photoset information
-var lightboxSet = []; // Stores the set of images open in lightbox
-var prevState = []; // Stores objects to be re-inserted later
+    if (request.readyState === XMLHttpRequest.DONE) {
+      if (request.status === 200) {
 
-// Lightbox Template
-var lightboxTemplate = document.createElement('div');
-  lightboxTemplate.id = 'lightbox';
-  lightboxTemplate.className = 'hide';
-var lightboxUi = document.createElement('div');
-  lightboxUi.id = 'lightbox-ui';
-var imageStageEl = document.createElement('div');
-  imageStageEl.id = 'stage';
+        switch (request.type){
+          case 'collections':
+            build_collections(responseData, options);
+            var currentState = gallery.imageGrid.childNodes;
+            Array.prototype.forEach.call(currentState, function(node) {
+              FlickrGal.prevState.push(node);
+            });
+            break;
 
-var lightboxControls = '<div class="close" title="Close (Esc)"></div>'
-  + '<div id="controls"><div id="arrow-left" class="prev" title="Prev"></div>'
-  + '<div id="arrow-right" class="next" title="Next"></div></div>'; 
-var infoEl = '<div id="info_container"><div id="info"><div id="title"></div>'
-  + '<div id="description"></div></div></div>';
-var imageBoxEl = '<div id="image-box-container"><div><div id="image-box"></div></div></div>';
+          case 'photosets':
+            insert_albums(responseData, request.id);
+            break;
+        }
+      } else {
+        console.log('Flickr ' + request.type + ' request failed!');
+      }
+    }
+  }
 
-lightboxUi.innerHTML = lightboxControls + infoEl;
-imageStageEl.innerHTML = imageBoxEl;
-lightboxTemplate.appendChild(lightboxUi);
-lightboxTemplate.appendChild(imageStageEl);
-// End Lightbox Template
+  function makeUrl(type, id) {
+    var endpoint = 'https://api.flickr.com/services/rest/?method=';
+
+    // Request methods
+    switch(type) {
+      case 'collections':
+        endpoint += 'flickr.collections.getTree'
+        break;
+      case 'photosets':
+        endpoint += 'flickr.photosets.getPhotos'
+          + '&photoset_id='
+          + id
+          + '&extras=description%2Curl_z%2Curl_c%2Curl_h%2Curl_k'
+        break;
+    }
+
+    // Common params
+    endpoint += '&format=json'
+      + '&nojsoncallback=1'
+      + '&api_key='
+      + APIKEY
+      + '&user_id='
+      + USERID;
+
+    return endpoint;
+  }
+
+  function makeApiRequest(type, id) {
+    var request   = new XMLHttpRequest();
+
+    request.open('GET', makeUrl(type, id), true);
+    request.type = type;
+    request.id = id;
+    request.onload = handleRequest;
+    request.send();
+  }
+
+  return {
+    makeApiRequest: makeApiRequest
+  }
+}
+
+if (typeof window !== 'undefined') window.FlickrGal = {
+  init: function() {
+
+      this.albums = []; // Stores full album / photoset information
+      this.lightboxSet = []; // Stores the set of images open in lightbox
+      this.prevState = []; // Stores objects to be re-inserted later
+
+      window.gallery = $('#flickrgal');
+
+      if (gallery) {
+        // FlickrGal template
+        gallery.className = 'hide';
+
+        var lightboxTemplate = document.createElement('div');
+        lightboxTemplate.id = 'lightbox';
+        lightboxTemplate.className = 'hide';
+
+        var lightboxUi = document.createElement('div');
+        lightboxUi.id = 'lightbox-ui';
+
+        var imageStageEl = document.createElement('div');
+        imageStageEl.id = 'stage';
+
+        var lightboxControls = '<div class="close" title="Close (Esc)"></div>'
+          + '<div id="controls"><div id="arrow-left" class="prev" title="Prev"></div>'
+          + '<div id="arrow-right" class="next" title="Next"></div></div>';
+        var infoEl = '<div id="info_container"><div id="info"><div id="title"></div>'
+          + '<div id="description"></div></div></div>';
+        var imageBoxEl = '<div id="image-box-container"><div><div id="image-box"></div></div></div>';
+
+        lightboxUi.innerHTML = lightboxControls + infoEl;
+        imageStageEl.innerHTML = imageBoxEl;
+        lightboxTemplate.appendChild(lightboxUi);
+        lightboxTemplate.appendChild(imageStageEl);
+
+        var loadingGallery = '<div id="loading-gallery"><div>Loading...</div></div>';
+        var imageGridBox = '<div id="image-grid"></div>';
+
+        gallery.insertAdjacentHTML('afterbegin', loadingGallery);
+        gallery.insertAdjacentHTML('beforeend', imageGridBox);
+        gallery.appendChild(lightboxTemplate);
+
+        gallery.imageGrid = $('#image-grid');
+        var lightbox = $('#lightbox');
+
+        lightbox.image = $('#image-box');
+        lightbox.imageTitle = $('#info > #title');
+        lightbox.imageDesc = $('#info > #description');
+        gallery.loading = $('#loading-gallery');
+        // End FlickrGal template
+      }
+
+      this.loadGallery({
+        apiKey: gallery.getAttribute('data-apikey'),
+        userId: gallery.getAttribute('data-userid')
+      });
+  },
+  loadGallery: function(options) {
+    if(!options.apiKey) throw "Api key not set";
+    if(!options.userId) throw "User ID not set";
+
+    // Get the collection names
+    options.set = to_lower_case(JSON.parse(gallery.getAttribute('data-collections')));
+    options.set.indexOf('all') >= 0 ? options.getAll = true : options.getAll = false;
+    options.setHasTitles = gallery.hasAttribute('data-titles') ? true : false;
+
+    [].forEach.call(
+      document.querySelectorAll(".close,.prev,.next"),
+      function(el) {
+        el.addEventListener("click", handle_click);
+      }
+    )
+
+    window.addEventListener('keydown', handle_keys);
+
+    this.gallery = new Flickr({
+      apiKey: options.apiKey,
+      userId: options.userId,
+      getAll: options.getAll,
+      set: options.set,
+      setHasTitles: options.setHasTitles
+    });
+
+    this.gallery.makeApiRequest('collections');
+  }
+}
 
 // FUNCTIONS
+// Selectors
+function $(el){
+    return document.querySelector(el);
+}
 //Event Handlers
 function handle_click(event){
   var el = event.currentTarget;
   var type = el.className;
+  console.log(type)
+
   switch(type){
+    case 'navigate-back':
+    gallery.imageGrid.innerHTML = "";
+    for(var element in FlickrGal.prevState) {
+      gallery.imageGrid.appendChild(FlickrGal.prevState[element]);
+    }
+
+    gallery.loading.style.display = 'none';
+    break;
     case 'album':
+    if (typeof window !== 'undefined') window.pageYOffset = document.documentElement.scrollTop = document.body.scrollTop = 0;
       var requestedAlbum = el.id;
-      gallery.innerHTML = "";
-      backButton.classList.remove('hide');
-      build_images(requestedAlbum);
-      window.scroll(0,0);
+      insert_images(requestedAlbum);
       break;
-    case 'image': 
+    case 'image':
       var requestedImage = el.id;
       var album = el.getAttribute('album-id');
+      insert_lightbox(requestedImage, album);
       lightbox.classList.remove('hide');
-      build_lightbox(requestedImage, album);
-      break;
-    case 'navigate-back':
-      gallery.innerHTML = "";
-      for(var node in prevState){
-        element = prevState[node];
-        gallery.appendChild(element);
-      }     
-      backButton.classList.add('hide');
-      loadingMessage.style.display = 'none';
-      window.scroll(0,0);
+      console.log('yip')
       break;
     case 'close':
       lightbox.classList.add('hide');
@@ -98,78 +220,49 @@ function handle_keys(event){
 }
 //End Event Handlers
 function prev(){
-  document.getElementById(lightboxSet[0]).classList.add('hide', 'hide-stage-image');
-  var move = lightboxSet.pop();
-  lightboxSet.unshift(move);
-  document.getElementById(lightboxSet[0]).classList.remove('hide', 'hide-stage-image');
+  var focus = document.getElementById(FlickrGal.lightboxSet[0]);
+  focus.classList.add('hide-stage-image');
+  var move = FlickrGal.lightboxSet.pop();
+  FlickrGal.lightboxSet.unshift(move);
+  focus = document.getElementById(FlickrGal.lightboxSet[0])
+  focus.classList.remove('hide-stage-image');
+  lightbox.imageTitle.innerHTML = focus.getAttribute('data-title');
+  lightbox.imageDesc.innerHTML = focus.getAttribute('data-description');
 }
 function next(){
-  document.getElementById(lightboxSet[0]).classList.add('hide', 'hide-stage-image');
-  var move = lightboxSet.shift();
-  lightboxSet.push(move);
-  document.getElementById(lightboxSet[0]).classList.remove('hide', 'hide-stage-image');
+  var focus = document.getElementById(FlickrGal.lightboxSet[0]);
+  focus.classList.add('hide-stage-image');
+  var move = FlickrGal.lightboxSet.shift();
+  FlickrGal.lightboxSet.push(move);
+  focus = document.getElementById(FlickrGal.lightboxSet[0])
+  focus.classList.remove('hide-stage-image');
+  lightbox.imageTitle.innerHTML = focus.getAttribute('data-title');
+  lightbox.imageDesc.innerHTML = focus.getAttribute('data-description');
 }
 // Create New blank elements
 function Element(type){
-  this.el = document.createElement('div'); 
+  this.el = document.createElement('div');
   this.el.className = type;
-  this.loading = document.createElement('div'); 
+  this.loading = document.createElement('div');
   this.loading.className = 'image-loading';
-  this.inner = document.createElement('div'); 
+  this.inner = document.createElement('div');
   this.inner.className = 'inner';
-  this.dummy = document.createElement('div'); 
+  this.dummy = document.createElement('div');
   this.dummy.className = 'dummy';
-  this.title = document.createElement('div'); 
-  this.desc = document.createElement('div');  
+  this.title = document.createElement('div');
+  this.desc = document.createElement('div');
 }
-// Send new requests to flickr
-function make_request(requestUrl, type, id){
-  var flickrRequest = new XMLHttpRequest();
-    flickrRequest.open('GET', requestUrl, true);
-    flickrRequest.requestType = type;
-    flickrRequest.requestID = id;
-    flickrRequest.onload = handle_request;
-    flickrRequest.send();
-}
-// Handle flickr requests
-function handle_request(event) {
-  var request = event.target;
-  var responseData = JSON.parse(request.responseText);
-  var type = request.requestType;
-  var targetID = request.requestID;
-  if (request.readyState === XMLHttpRequest.DONE) {
-    if (request.status === 200) {
-      console.log(type + ' request succeed');
-      console.log('Response JSON:');
-      console.log(responseData);
-
-      switch (type){
-        case 'collections':
-          build_collections(responseData);
-          break;
-        case 'photosets':
-          set_cover(responseData, targetID);
-          break;
-        case 'photo':
-          // Todo, requests for higher resolution images in the lightbox
-          break;
-      }
-    }else{
-      console.log('Flickr ' + requestType + ' request failed!');
-    }
-  }
-};
 // Finds position in albums array for a given id
-function get_album_pos(id){ 
+function get_album_pos(id){
   var position = "";
-  for (var album in albums){
-    albums[album].id == id ? position = album : false 
+  for (var album in FlickrGal.albums){
+    FlickrGal.albums[album].id == id ? position = album : false
   }
   return position;
 }
 function to_lower_case(array){
   for(name in array){
-      array[name] = array[name].toLowerCase();
+      array[name] = array[name].toString().toLowerCase();
   }
   return array;
 }
@@ -180,61 +273,53 @@ function fade_in_image(id, url){
   var isLoading = newElement.querySelector('.image-loading');
     isLoading ? isLoading.style.opacity = 0 : false;
 }
-function build_image_url(image, size){
-  var url =   'https://farm' 
-        + image.farm
-        + '.staticflickr.com/' 
-        + image.server 
-        + '/' 
-        + image.id 
-        + '_' 
-        + image.secret
-        + '_' 
-        + size
-        + '.jpg';
-  return url;
+
+function build_album(collection, collectionName, collectionID, options) {
+  var sets = collection.set
+  for(var set in sets){
+    FlickrGal.albums.push({
+      id: sets[set].id,
+      collectionName: collectionName,
+      collectionID: collectionID, // Not hooked up yet
+      title: sets[set].title,
+      description: sets[set].description,
+      images: []
+    });
+  }
+  if (options.setHasTitles) {
+    gallery.imageGrid.insertAdjacentHTML('beforeend', '<h3 class="collection-title">'
+      + collectionName
+      + '</h3><div class="collection '
+      + 'collection-'
+      + collectionID
+      + '"></div>');
+  }
 }
 //  Builds collections of albums from flickr 'photosets'
-function build_collections(data) {
+function build_collections(data, options) {
     var allCollections = data.collections.collection;
-    for(collection in allCollections){
+    for(var collection in allCollections){
       var collectionObject = allCollections[collection];
-      if (getAll) {
-        collections.push(collectionObject);
-        var sets = collectionObject.set
-        for(set in sets){
-          albums.push({   
-            id: sets[set].id, 
-            title: sets[set].title,  
-            description: sets[set].description, 
-            images: [] 
-          });
-        }
-      }else{
-        var title = allCollections[collection].title.toLowerCase();
-        if (collectionsRequested.indexOf(title) >= 0) {
-          collections.push(collectionObject);
-          var sets = collectionObject.set
-          for(set in sets){
-            albums.push({   
-              id: sets[set].id, 
-              title: sets[set].title,  
-              description: sets[set].description, 
-              images: [] 
-            });
-          }
-        }
+      var collectionName = collectionObject.title;
+      var collectionID = collectionObject.id;
+
+      if (options.getAll) {
+        build_album(collectionObject, collectionName, collectionID, options);
+      }else if (options.set.indexOf(collectionName.toLowerCase()) >= 0) {
+        build_album(collectionObject, collectionName, collectionID, options);
       }
     }
 
-    loadingMessage.style.display = 'none';
+    gallery.loading.style.display = 'none';
 
     // Build the albums for a collection
-    Array.prototype.forEach.call(albums, function(album) {
-      var newAlbum = new Element('album');    
+    Array.prototype.forEach.call(FlickrGal.albums, function(album) {
+      var newAlbum = new Element('album');
 
       newAlbum.el.id = album.id;
       newAlbum.title.innerHTML = album.title;
+      newAlbum.el.setAttribute('collection-name', album.collectionName);
+      newAlbum.el.setAttribute('collection-id', album.collectionID);
 
       // Todo, hook up descriptions somewhere
       newAlbum.inner.appendChild(newAlbum.title);
@@ -242,135 +327,119 @@ function build_collections(data) {
       newAlbum.el.appendChild(newAlbum.dummy);
       newAlbum.el.appendChild(newAlbum.inner);
       newAlbum.el.addEventListener('click', handle_click);
-      gallery.appendChild(newAlbum.el);
-      
-      prevState.push(newAlbum.el);
-    });
-    // Request cover images for albums
-    Array.prototype.forEach.call(albums, function(album) {
-      var url = endpoint 
-        + methodPhotos 
-        + '&photoset_id=' 
-        + album.id
-        + params;
 
-      make_request(url, 'photosets', album.id);
+      if (options.setHasTitles) {
+        gallery.imageGrid.querySelector('.collection-' + newAlbum.el.getAttribute('collection-id')).appendChild(newAlbum.el);
+      }else{
+        gallery.imageGrid.appendChild(newAlbum.el);
+      }
+    });
+    // Request images for albums
+    Array.prototype.forEach.call(FlickrGal.albums, function(album) {
+      FlickrGal.gallery.makeApiRequest('photosets', album.id);
     });
     // Initial gallery fade in
     gallery.classList.remove('hide');
-  // });
 };
-function set_cover(data, id){
+function insert_albums(data, id){
   // Organise and push image data to albums array
   var position = get_album_pos(id);
   var allImages = data.photoset.photo;
   Array.prototype.forEach.call(allImages, function(image) {
     var imageObject = {};
+    var primaryImageUrl;
     imageObject.id = image.id;
-    imageObject.farm = image.farm;
-    imageObject.server = image.server;
-    imageObject.secret = image.secret;
+    imageObject.urlZ = image.url_z;
+    imageObject.urlC = image.url_c;
+    imageObject.urlH = image.url_h;
+    imageObject.urlK = image.url_k;
     imageObject.title = image.title;
+    imageObject.description = image.description;
     imageObject.is_primary = image.isprimary;
-    albums[position].images.push(imageObject);
+    FlickrGal.albums[position].images.push(imageObject);
 
+    // Set album cover image
     if (imageObject.is_primary == 1) {
-      var primaryImageUrl = build_image_url(imageObject, 'z');
+      primaryImageUrl = imageObject.urlZ;
       // Append image and fade it in
+      fade_in_image(id, primaryImageUrl);
+    } else {
+      // Fallback to set the primary photo to the first photo returned in the album is isprimary is not set
+      primaryImageUrl = FlickrGal.albums[position].images[0].urlZ;
       fade_in_image(id, primaryImageUrl);
     }
   });
 }
-function build_images(id){
+function insert_images(id){
+  gallery.imageGrid.innerHTML = "";
+
+  var navigateBack = new Element('image');
+      navigateBack.inner.classList.remove('inner');
+      navigateBack.inner.classList.add('navigate-back');
+      navigateBack.inner.innerHTML = '<div>Back</div>';
+      navigateBack.inner.addEventListener('click', handle_click);
+      navigateBack.el.appendChild(navigateBack.dummy);
+      navigateBack.el.appendChild(navigateBack.inner);
+      gallery.imageGrid.appendChild(navigateBack.el);
+
   var position = get_album_pos(id);
-  var images = albums[position].images
+  var images = FlickrGal.albums[position].images
   var size = 'z';
-  
+
   Array.prototype.forEach.call(images, function(image) {
-    var imageUrl = build_image_url(image, 'z'); 
+    var imageUrl = image.urlZ;
     var newImage = new Element('image');
     var imageID = image.id;
 
     newImage.el.id = imageID;
     newImage.el.setAttribute('album-id', id);
 
-    // newImage.el.appendChild(newImage.loading);
     newImage.el.appendChild(newImage.dummy);
     newImage.el.appendChild(newImage.inner);
     newImage.el.addEventListener('click', handle_click);
-    gallery.appendChild(newImage.el);
-    
+    gallery.imageGrid.appendChild(newImage.el);
+
     // Append image and fade it in
     fade_in_image(imageID, imageUrl);
   });
 }
-function build_lightbox(id, album){ 
-  lightboxSet = [];
+function insert_lightbox(id, album){
+  FlickrGal.lightboxSet = [];
   var position = get_album_pos(album);
-  var callingAlbum = albums[position].images;
+  var callingAlbum = FlickrGal.albums[position].images;
   var stageID = 'stage-' + id;
 
-  imageBox.innerHTML = '';
-  Array.prototype.forEach.call(callingAlbum, function(image) {  
+  lightbox.image.innerHTML = '';
+  Array.prototype.forEach.call(callingAlbum, function(image) {
     var currentImage = document.getElementById(image.id);
     var initialUrl = currentImage.style.backgroundImage;
     var newImage = document.createElement('div');
       newImage.id = 'stage-' + image.id;
-      newImage.classList.add('hide', 'hide-stage-image');
+      newImage.classList.add('hide-stage-image');
       newImage.style.backgroundImage = initialUrl;
-      imageBox.appendChild(newImage);
-      lightboxSet.push(newImage.id);
+      newImage.setAttribute('data-title', image.title);
+      newImage.setAttribute('data-description', image.description._content);
+
+      // Append divs with large image inserts
+      // Falls back through a few different sizes if high res ones aren't available
+      var largeImageUrl = image.urlK || image.urlH || image.urlC; 
+      newImage.innerHTML = '<div style="background-image: url('
+        + largeImageUrl
+        + ')"></div>';
+
+      lightbox.image.appendChild(newImage);
+      FlickrGal.lightboxSet.push(newImage.id);
   });
 
-  var activePos = lightboxSet.indexOf(stageID);
-  var top = lightboxSet.slice(activePos);
-  var bottom = lightboxSet.slice(0, activePos);
+  var activePos = FlickrGal.lightboxSet.indexOf(stageID);
+  var top = FlickrGal.lightboxSet.slice(activePos);
+  var bottom = FlickrGal.lightboxSet.slice(0, activePos);
 
-  lightboxSet = top.concat(bottom);
+  FlickrGal.lightboxSet = top.concat(bottom);
 
-  document.getElementById(stageID).classList.remove('hide', 'hide-stage-image');
-}
+  // Set the selected image title and description in the lightbox
+  lightbox.imageTitle.innerHTML = document.getElementById(FlickrGal.lightboxSet[0]).getAttribute('data-title');
+  lightbox.imageDesc.innerHTML = document.getElementById(FlickrGal.lightboxSet[0]).getAttribute('data-description');
 
-var gallery = document.querySelector('#flickrgal'); 
-  gallery.className = 'hide';
-var galleryNavigation = '<div id="navigation-container"><div class="navigate-back hide"><div>Back</div></div></div>';
-var loadingGallery = '<div id="loading-gallery"><div>Loading...</div></div>';
-
-if (gallery) {
-  // Get the collection names
-  var getAll = false;
-  var collectionsRequested = gallery.getAttribute('collections');
-    collectionsRequested = JSON.parse(collectionsRequested);
-    collectionsRequested = to_lower_case(collectionsRequested);
-    
-    collectionsRequested.indexOf('all') >= 0 ? getAll = true : getAll = false;
-
-  // Defining vars and events for all elements inserted dynamically on page load
-  gallery.insertAdjacentHTML('beforebegin', galleryNavigation);
-  gallery.insertAdjacentHTML('beforebegin', loadingGallery);
-  gallery.parentNode.appendChild(lightboxTemplate);
-  var lightbox = document.querySelector('#lightbox');
-  var imageBox = document.querySelector('#image-box');
-  var loadingMessage = document.querySelector('#loading-gallery');
-  
-  var closeButton = document.querySelector('.close')
-  var backButton = document.querySelector('.navigate-back');
-  var prevButton = document.querySelector('.prev');
-  var nextButton = document.querySelector('.next');
-  
-  closeButton.addEventListener('click', handle_click);
-  backButton.addEventListener('click', handle_click);
-  prevButton.addEventListener('click', handle_click);
-  nextButton.addEventListener('click', handle_click);
-
-  window.addEventListener('keydown', handle_keys);
-
-  // Start Loading the gallery
-  console.log('Requested Collections: ' + collectionsRequested);
-  // Make a collection request
-  var url = endpoint
-    + methodCollection
-    + params;
-
-  make_request(url, 'collections'); 
+  document.getElementById(stageID).classList.remove('hide-stage-image');
 }

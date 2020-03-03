@@ -1,378 +1,396 @@
-@mixin rotate($angle: 0){
-  // Rotates a div by specified angle 
-  -webkit-transform:rotate(#{$angle}deg);
-  -moz-transform:rotate(#{$angle}deg);
-  -ms-transform:rotate(#{$angle}deg);
-  -o-transform:rotate(#{$angle}deg);
-  transform:rotate(#{$angle}deg);
-}
-@mixin calculate_tile($numberoftiles: 1) {
-  $tiles: $numberoftiles; /* Default number of tiles per row */
-  $tilewidth: 100%/$tiles; /* Width of tiles */
-  width: $tilewidth;
-}
-$tile_padding: 5px;
-@mixin animate($duration: .2s){   
-  // Animates all properties of an object           
-  -webkit-transition:
-    all $duration ease-out;
-  -moz-transition: 
-    all $duration ease-out;
-  -o-transition: 
-    all $duration ease-out;
-  transition: 
-    all $duration ease-out;
-}
-@mixin darken($fade: .2){
-  $darken: #000;
-  background-color: transparentize($darken, $fade);
-}
-@mixin lighten($fade: .7){
-  $lighten: #fff;
-  background-color: transparentize($lighten, $fade);
-}
-@mixin vertcenter{
-  // Vertically centers any element with whose parent is display: table;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-/* Gallery */
 #flickrgal{
-  width: 100%;
-  float: left;
-  padding: 0px 0px 50px 0px;
-  @include animate;
-  & div{
-    float: left;
-  }
-}
-#loading-gallery{
-  float: left;
-  width: 100%;
-  text-align: center;
-  padding-top: 6rem;
-}
-#lightbox{
-  text-align: center;
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  z-index: 5;
-  left: 0px;
-  top: 0px;
-  @include animate;
-  @include darken;
-}
+  // CONFIGURATION
+  // Colours
+  $colours: (
+    primary-accent: #0076E3, // Main gallery accent colour
+    secondary-accent: #ff1981,
+    lightbox: #000B10
+  );
+  // Image Variables
+  $image-grid: (
+    aspect:  4/3, // Set image aspect ratio e.g. 4/3 == 4:3
+    padding: 5px, // Space between images
+    default-cols: 3 // Default number of columns
+  );
+  // Gallery Breakpoints (max-width, columns)
+  $breakpoints: (
+    (750px, 2),
+    (450px, 1)
+  );
+  // END CONFIGURATION
 
-#stage{
-  height: 100%;
+  // Calculations
+  $tile-height: (1/map-get($image-grid, aspect))*100%;
+
+  // flickrGal mixins
+  @mixin calculate_tile($numberoftiles){ // Calculates image tile width percentages
+    $tiles: $numberoftiles;
+    $tilewidth: calc(100%/#{$tiles});
+    width: $tilewidth;
+  }
+  @mixin breaks {
+    @each $breakpoint in $breakpoints{
+      @media(max-width: #{nth($breakpoint, 1)}){
+        .image,
+        .album{
+          @include calculate_tile(#{nth($breakpoint, 2)});
+        }
+      }
+    }
+  }
+  @mixin animate($duration: .2s){ // Animates all properties of an object
+    -webkit-transition: all $duration ease-out;
+    -moz-transition: all $duration ease-out;
+    -o-transition: all $duration ease-out;
+    transition: all $duration ease-out;
+  }
+  @mixin rotate($angle: 0){ // Rotates a div by specified angle
+    -webkit-transform:rotate(#{$angle}deg);
+    -moz-transform:rotate(#{$angle}deg);
+    -ms-transform:rotate(#{$angle}deg);
+    -o-transform:rotate(#{$angle}deg);
+    transform:rotate(#{$angle}deg);
+  }
+
+  // #flickrgal main div styles
   width: 100%;
-  @include vertcenter;
-}
-$fade-time: 0.3s;
-#image-box-container{
-  display: inline-block;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  margin: 0px auto;
-  z-index: 6;
-  div{
-    height: 100%;
+  float: left;
+  @include animate;
+
+  // Initial loading message
+  #loading-gallery{
+    float: left;
     width: 100%;
-    padding: 75px 55px 75px 55px;
-    box-sizing: border-box;
-    #image-box{
+    text-align: center;
+    padding-top: 6rem;
+  }
+
+  // Gallery image grid
+  #image-grid{
+    float: left;
+    width: 100%;
+
+    .collection-title{
+      float: left;
       width: 100%;
-      height: 100%;
-      position: relative;
+    }
+    .collection{
+      float: left;
+      width: 100%;
+    }
+    .image,
+    .album{
+      @include calculate_tile(#{map-get($image-grid, default-cols)});
+      border: map-get($image-grid, padding) solid transparent;
+      background-color: #fafafa;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-clip: padding-box;
+      background-size: cover;
       box-sizing: border-box;
-      div{
-        height: 100%;
-        width: 100%;
+      display: inline-block;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      float: left;
+      @include animate;
+
+      .image-loading{
+        position: absolute;
+        z-index: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .dummy {
+        margin-top: $tile-height;
+      }
+      .navigate-back,
+      .inner {
         position: absolute;
         top: 0;
         left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000;
+        opacity: 0;
+        box-sizing: border-box;
+        @include animate;
+
+        &:hover{
+          opacity: 0.5;
+        };
+
+
+        & div {
+          top: 0;
+          bottom: 0;
+          width: 100%;
+          margin: auto;
+          line-height: 60px;
+          font-size: 20px;
+          height: 60px;
+          text-align: center;
+          position: absolute;
+          color: #fff;
+          font-weight: 600;
+        }
+
+      }
+
+      .navigate-back {
+        opacity: 1;
+        color: #fff;
+        background-color: #aaa;
+
+        &:hover{
+          background-color: map-get($colours, primary-accent);
+          opacity: 1;
+        }
+      }
+    }
+    @include breaks;
+  }
+
+  // Lightbox
+  #lightbox{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    left: 0px;
+    top: 0px;
+    background-color: map-get($colours, lightbox);
+    @include animate;
+
+    #lightbox-ui{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      z-index: 8;
+      display: table;
+
+      .close{
+        background-image: url("data:image/svg+xml,%3Csvg width='12px' height='12px' viewBox='0 0 12 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Artboard' transform='translate(-74.000000, -62.000000)' fill='%23FFFFFF'%3E %3Cpolygon id='Combined-Shape' points='79.8131693 66.0863257 83.8994949 62 85.6263385 63.7268436 81.5400129 67.8131693 85.6263385 71.8994949 83.8994949 73.6263385 79.8131693 69.5400129 75.7268436 73.6263385 74 71.8994949 78.0863257 67.8131693 74 63.7268436 75.7268436 62'%3E%3C/polygon%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
         background-position: center center;
         background-repeat: no-repeat;
-        background-size: contain;
-        -webkit-transition:
-          opacity $fade-time linear, visibility $fade-time linear, top 0s linear 0s;
-        -moz-transition: 
-          opacity $fade-time linear, visibility $fade-time linear, top 0s linear 0s;
-        -o-transition: 
-          opacity $fade-time linear, visibility $fade-time linear, top 0s linear 0s;
-        transition: 
-          opacity $fade-time linear, visibility $fade-time linear, top 0s linear 0s;
+        width: 30px;
+        height: 30px;
+        padding: 15px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        opacity: 0.5;
+        cursor: pointer;
+        @include animate;
+        &:hover{
+          opacity: 1;
+        }
       }
-      .hide-stage-image{
-        top: 500%;
-        transition-delay: 0s, 0s, $fade-time;
-        -moz-transition-delay: 0s, 0s, $fade-time;
-        -o-transition-delay: 0s, 0s, $fade-time;
-        -webkit-transition-delay: 0s, 0s, $fade-time;
+
+      #controls{
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+
+        #arrow-left,
+        #arrow-right{
+          background-image: url("data:image/svg+xml,%3Csvg width='13px' height='21px' viewBox='0 0 13 21' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='Artboard' transform='translate(-45.000000, -35.000000)' fill='%23FFFFFF'%3E %3Cpolygon id='Combined-Shape' points='57.2071068 37.2071068 49 45.4142136 57.2071068 53.6213203 55.2071068 55.6213203 45 45.4142136 55.2071068 35.2071068'%3E%3C/polygon%3E %3C/g%3E %3C/g%3E %3C/svg%3E");
+          background-position: center center;
+          background-repeat: no-repeat;
+          width: 40px;
+          height: 150px;
+          padding-left: 10px;
+          margin-left: -1px;
+          cursor: pointer;
+          opacity: 0.5;
+          @include animate;
+          &:hover{
+            opacity: 1;
+          }
+        }
+        @media(max-width: 400px){
+          #arrow-left,
+          #arrow-right{
+            padding-left: 0;
+          }
+
+        }
+        #arrow-left{
+          float: left;
+        }
+        #arrow-right{
+          float: right;
+          @include rotate(180);
+        }
+      }
+
+      #info_container{
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 1rem 0 1.2rem 0;
+        background-color: map-get($colours, lightbox);
+        z-index: 7;
+
+        #info{
+          padding: 0px 40px 0px 40px;
+          display: inline-block;
+          color: #eee;
+          font-size: 14pt;
+          @include animate;
+          @media(max-width: 400px){
+            padding: 0px 15px 0px 15px;
+          }
+
+          #title{
+            font-size: 1.1rem;
+            color: #fff;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            @include animate;
+            @media(max-width: 400px){
+              font-size: 0.9rem;
+            }
+          }
+          #description{
+            font-weight: 300;
+            font-size: 0.8rem;
+            @include animate;
+            a{
+              color: lighten(map-get($colours, primary-accent), 10%);
+              text-decoration: none;
+              font-weight: 700;
+            }
+            a:hover{
+              color: lighten(map-get($colours, primary-accent), 40%);
+            }
+            @media(max-width: 400px){
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+
+    #stage{
+      height: 100%;
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle;
+
+      $fade-time: 0.3s;
+      #image-box-container{
+        display: inline-block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+        z-index: 6;
+        div{
+          height: 100%;
+          width: 100%;
+          padding: 75px 55px 75px 55px;
+          box-sizing: border-box;
+          #image-box{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            box-sizing: border-box;
+            div{
+              height: 100%;
+              width: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background-position: center center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              -webkit-transition:
+                opacity $fade-time linear, visibility 0s linear, top 0s linear 0s;
+              -moz-transition:
+                opacity $fade-time linear, visibility 0s linear, top 0s linear 0s;
+              -o-transition:
+                opacity $fade-time linear, visibility 0s linear, top 0s linear 0s;
+              transition:
+                opacity $fade-time linear, visibility 0s linear, top 0s linear 0s;
+
+              div{
+                width: 100%;
+                height: 100%;
+                float: left;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+              }
+            }
+            .hide-stage-image{
+              top: 500%;
+              visibility: hidden;
+              opacity: 0;
+              transition-delay: 0s, $fade-time, $fade-time;
+              -moz-transition-delay: 0s, $fade-time, $fade-time;
+              -o-transition-delay: 0s, $fade-time, $fade-time;
+              -webkit-transition-delay: 0s, $fade-time, $fade-time;
+            }
+          }
+        }
+        @media(max-width: 400px){
+          div{
+            padding: 75px 42px 75px 42px;
+          }
+        }
       }
     }
   }
-}
-#info_container{
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-  left: 0px;
-  text-align: center;
-  padding: 15px 0px 15px 0px;
-  background: #000;
-  opacity: 0.7;
-  z-index: 7;
-}
-#info{
-  padding: 0px 40px 0px 40px;
-  display: inline-block;
-  color: #eee;
-  font-size: 14pt;
-}
-#title{
-  font-size: 20pt;
-  color: #fff;
-  display: inline-block;
-}
-#description a{
-  color: #fff;
-  width: 100%;
+
+  // States
+  .hide{
+    visibility: hidden;
+    opacity: 0;
+  }
 }
 
-.image,
-.album{
-  @include calculate_tile(3);
-  display: inline-block;
-  cursor: pointer;
-  float: left;
-  background-color: #eee !important;
-  background-clip: padding-box;
-  border: $tile_padding solid transparent;
-  position: relative;
-  overflow: hidden;
-  @include animate;
+
+// Misc animation
+// Image tile loading animation
+.image-loading {
+  background: none;
+  border-radius: 50%;
   box-sizing: border-box;
-  background-repeat: no-repeat; 
-  background-position: center center;
-  background-size: cover;
-  box-sizing: border-box;
+  padding: 4px;
+  width: 200px;
+  height: 200px;
+  padding: 3em;
 }
-@mixin spinner($duration: 2s){
-  -webkit-animation-name: spinner; 
-  -webkit-animation-duration: $duration; 
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: cubic-bezier(0.35,0.4,0.6,0.65);
-  -moz-animation-name: spinner; 
-  -moz-animation-duration: $duration; 
-  -moz-animation-iteration-count: infinite;
-  -moz-animation-timing-function: cubic-bezier(0.35,0.4,0.6,0.65);
-  animation-name: spinner; 
-  animation-duration: $duration; 
+
+.image-loading:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+  border: 4px solid #eee;
+  box-sizing: border-box;
+  clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 50%);
+  animation-name: loading;
+  animation-duration: 1.1s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.35,0.4,0.6,0.65);
-}
-@-webkit-keyframes spinner {
-    0% {
-      -webkit-transform: rotate(0deg);
-      -webkit-transform: scale(1,1);
-    }
-    50%{
-      -webkit-transform: scale(0.5,0.5);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      -webkit-transform: scale(1,1);
-    }
+  animation-timing-function: cubic-beizer(0.17, 0.67, 0.83, 0.67);
 }
 
-@-moz-keyframes spinner {
-    from {-moz-transform: rotate(0deg);}
-    to {-moz-transform: rotate(360deg);}
-}
-
-@keyframes spinner {
-    0% {
-      transform: rotate(0deg)
-      scale(1,1);
-    }
-    50%{
-      transform: rotate(180deg)
-      scale(0.6,0.6);
-    }
-    100% {
-      transform: rotate(360deg)
-      scale(1,1);
-    }
-}
-.image-loading{
-  width: 100%;
-  height: 100%;
-  background-color: inherit;
-  @include animate(1s);
-  position: absolute;
-  z-index: 0;
-}
-.image-loading:before,
-.image-loading:after{
-  content: "";
-  background-size: 40px;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: center center;
-  z-index: 1;
-}
-.image-loading:before{
-  background-image: url('../assets/images/load-1.svg');
-  @include spinner(1.6s);
-}
-.image-loading:after{
-  background-image: url('../assets/images/load-2.svg');
-  @include spinner(2s);
-}
-
-.dummy {
-  margin-top: 75%; /* Used to set tile ratio */
-}
-
-.inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #FFF;
-  opacity: 0;
-  box-sizing: border-box;
-  @include animate;
-
-  &:hover{
-    opacity: 0.6;
-  };
-
-  & div {
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-    line-height: 60px;
-    font-size: 20px;
-    height: 60px;
-    text-align: center;
-    position: absolute;
-    color: #000;
-    font-weight: 600;
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
   }
-  
-} 
-
-@media(max-width: 1100px){
-  .image,
-  .album{
-    @include calculate_tile(2);
-    border: 3px solid transparent;
+  to {
+    transform: rotate(360deg);
   }
-}
-@media(max-width: 600px){
-  .image,
-  .album{
-    @include calculate_tile(1);
-    border: 2px solid transparent;
-  }
-}
-#navigation-container{
-  float: left;
-  width: 100%;
-  height: 35px;
-  margin-top: 10px;
-}
-
-.navigate-back{
-  float: left;
-  padding: 0 15px 0 22px;
-  background: url('../assets/images/arrow.png') center left no-repeat #aaa;
-  background-size: 20%;
-  color: #fff;
-  height: 100%;
-  font-size: 10pt;
-  font-weight: 600;
-  text-align: right;
-  margin: 0px 0px 0px $tile_padding; /* Same as .tile border */
-  overflow: hidden;
-  display: table;
-  cursor: pointer;
-  @include animate;
-  div{
-    display: table-cell;
-    vertical-align: middle;
-  }
-  &:hover{
-    background-color: blue;
-  };
-
-}
-
-#lightbox-ui{
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 8;
-  display: table;
-  #arrow-left{
-    float: left;
-    margin-left: -1px;
-    padding-left: 10px;
-  }
-  #arrow-right{
-    float: right;
-    margin-right: -1px;
-    padding-right: 10px;
-    @include rotate(180);
-  }
-}
-#controls{
-  width: 100%;
-  height: 100%;
-  @include vertcenter;
-}
-.close{
-  background: url('../assets/images/esc.png') center center no-repeat;
-  width: 30px;
-  height: 30px;
-  padding: 15px;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  opacity: 0.5;
-  cursor: pointer;
-}
-.close:hover{
-  opacity: 1;
-  background-color: #333;
-}
-#arrow-right,
-#arrow-left{
-  background: url('../assets/images/arrow.png') center center no-repeat;
-  width: 40px;
-  height: 150px;
-  opacity: 0.5; 
-  cursor: pointer;
-  @include animate;
-}
-#arrow-right:hover,
-#arrow-left:hover{
-  opacity: .9;
-  background-color: #333; 
-}
-
-.hide{
-  visibility: hidden;
-  opacity: 0;
 }
