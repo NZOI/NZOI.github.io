@@ -36,13 +36,13 @@ The [scoreboard](https://docs.google.com/spreadsheets/d/1FYwDIoF0qQdpAJPRZ8VjWFL
 
 The [results](results-round2) of round 2 are now available!
 
-Solutions can be found [here](solutions-round2).
+Solutions can be found [here](../solutions-round2/).
 
 ## Round 1
 
 The [results](results-round1) of round 1 are now available!
 
-Solutions can be found [here](solutions-round1).
+Solutions can be found [here](../solutions-round1/).
 
 ## What is Informatics?
 

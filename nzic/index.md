@@ -33,12 +33,12 @@ If you're at a school with multiple students wanting to participate you might wa
 
 See these pages for more info:
 
-- [The rules](rules)
-- [FAQ](faq)
-- [Resources](resources)
-- [About us](about)
-- [Past rounds](past)
-- [Support](support)
+- [The rules](rules/)
+- [FAQ](faq/)
+- [Resources](resources/)
+- [About us](about/)
+- [Past rounds](past/)
+- [Support](support/)
 
 ### What now?
 
