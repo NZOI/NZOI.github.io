@@ -8,6 +8,8 @@ nzic_weight: 90
 
 ### 2020
 
+- [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vS6Jz5N5yKt9z4khTH9DKGopiT-cTLCU0r3sP0t4HlMEsCYVr8UIIdqmCsoVQsJGt6DaTPZPAgbxsz_/pubhtml)
+- [Round 2 Solutions](2020/NZIC_2020_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vS1tjyPMInyZH37ciU6QTwhbip8atbJ1IB4F5KrIXDaphd92ie3d6xxMzXMwVg-x_r_8GAPy_TIHlWS/pubhtml)
 - [Round 1 Solutions](2020/NZIC_2020_R1_Solutions.pdf)
 

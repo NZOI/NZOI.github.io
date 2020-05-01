@@ -10,7 +10,7 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-The first round of NZIC 2020 is over, but registration is still open for rounds two and three! If you have successfully registered for round one, you do not need to resubmit the registration form.
+The first two rounds of NZIC 2020 are over, but registration is still open for the last round! If you have successfully registered for a previous round, you do not need to resubmit the registration form.
 
 - [Register for NZIC 2020](https://forms.gle/9DCjAEobwcRNvNHEA).
 - [Sign up to the NZIC mailing list](https://forms.gle/ffK59FdJ5DLmBHgYA).
@@ -21,8 +21,8 @@ In the context of this competition, informatics involves problem-solving with co
 
 ### Dates
 
-* <strike>Round One: **Monday 17th Feb - Sunday 23rd Feb**</strike>
-* Round Two: **Monday 13th April - Sunday 19th April** (First week of Term 1 break)
+* <strike>Round One: Monday 17th Feb - Sunday 23rd Feb</strike>
+* <strike>Round Two: Monday 13th April - Sunday 19th April</strike>
 * Round Three: **Monday 6th July - Sunday 12th July** (First week of Term 2 break)
 
 ### Overview
