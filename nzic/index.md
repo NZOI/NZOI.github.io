@@ -10,20 +10,17 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-The first two rounds of NZIC 2020 are over, but registration is still open for the last round! If you have successfully registered for a previous round, you do not need to resubmit the registration form.
+The NZIC has concluded for 2020. Registration for NZIC 2021 will open next year.
 
-- [Register for NZIC 2020](https://forms.gle/9DCjAEobwcRNvNHEA).
 - [Sign up to the NZIC mailing list](https://forms.gle/ffK59FdJ5DLmBHgYA).
 
 ### What is Informatics?
 
 In the context of this competition, informatics involves problem-solving with computer programs. Problems of a mathematical nature are posed, and students will write a computer program to solve the problem. The competition tests the efficiency and correctness of the algorithms the students come up with. The use of a programming language is not the goal itself, but rather a method by which a solution is expressed. A big part of informatics is breaking down and understanding the problem itself.
 
-### Dates
+### Schedule
 
-* <strike>Round One: Monday 17th Feb - Sunday 23rd Feb</strike>
-* <strike>Round Two: Monday 13th April - Sunday 19th April</strike>
-* Round Three: **Monday 6th July - Sunday 12th July** (First week of Term 2 break)
+Dates for NZIC 2021 have yet to be set.
 
 ### Overview
 
