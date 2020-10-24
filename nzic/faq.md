@@ -23,7 +23,7 @@ If you would like to sponsor a prize, please [contact us](mailto:nzic@nzoi.org.n
 
 ### How can I practice?
 
-Visit [train.nzoi.org.nz](train.nzoi.org.nz).
+Visit [train.nzoi.org.nz](https://train.nzoi.org.nz).
 
 ### What type of problems will be in the contest?
 
