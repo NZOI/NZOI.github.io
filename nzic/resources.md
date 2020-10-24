@@ -8,7 +8,7 @@ nzic_weight: 45
 
 - [Installing and using C++](cpp-install-instructions.pdf)
 
-Using [train.nzoi.org.nz](train.nzoi.org.nz):
+Using [train.nzoi.org.nz](https://train.nzoi.org.nz):
 
 - [How our servers mark your code (Python 3 example)](how-judging-works-python3.pdf)
 - [Understanding judge feedback](understanding-judge-feedback.pdf)
@@ -18,7 +18,7 @@ Competitive programming books:
 - [Competitive Programming 1](https://www.comp.nus.edu.sg/~stevenha/myteaching/competitive_programming/cp1.pdf)
 - [Competitive Programming Handbook](https://cses.fi/book/book.pdf)
 
-Sources of problems (other than our own [train.nzoi.org.nz](train.nzoi.org.nz)):
+Sources of problems (other than our own [train.nzoi.org.nz](https://train.nzoi.org.nz)):
 
 - US: [http://train.usaco.org/usacogate](http://train.usaco.org/usacogate)
 - Australia: [http://orac.amt.edu.au/cgi-bin/train/hub.pl](http://orac.amt.edu.au/cgi-bin/train/hub.pl)
