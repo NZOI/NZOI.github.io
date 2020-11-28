@@ -1,3 +1,17 @@
+- year: 2020
+  sponsors:
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal.png
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: Craig Nevill-Manning
+      sponsor_logo:
+    -
+      name: University of Waikato
+      sponsor_logo: waikato.jpg
 - year: 2019
   sponsors:
     -
