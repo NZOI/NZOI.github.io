@@ -1,0 +1,15 @@
+.sponsor-card {
+    @extend .card;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-name-text {
+    @extend .title;
+    text-align: center;
+    padding: 4px;
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
