@@ -10,7 +10,7 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-Registration for NZIC 2021 will open soon. [Sign up to the NZIC mailing list](https://docs.google.com/forms/d/e/1FAIpQLSeQD1nxO43INS8kqH8x61-p5pnaLTv9slVoE0SEsAQYRTVC1g/viewform) to be notified.
+Registration for the first round of the NZIC 2021 will open soon. [Sign up to the NZIC mailing list](https://docs.google.com/forms/d/e/1FAIpQLSeQD1nxO43INS8kqH8x61-p5pnaLTv9slVoE0SEsAQYRTVC1g/viewform) to be notified.
 
 ### What is Informatics?
 
@@ -18,7 +18,11 @@ In the context of this competition, informatics involves problem-solving with co
 
 ### Schedule
 
-Dates for NZIC 2021 have yet to be set.
+There will be 3 rounds in the NZIC 2021. Contest weeks are:
+
+- Monday Feb 22 to Sunday Feb 28
+- Monday Apr 12 to Sunday Apr 18
+- Monday Jul 5 to Sunday Jul 11
 
 ### Overview
 
