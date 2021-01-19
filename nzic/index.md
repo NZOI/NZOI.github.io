@@ -10,7 +10,10 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-Registration for the first round of the NZIC 2021 will open soon. [Sign up to the NZIC mailing list](https://docs.google.com/forms/d/e/1FAIpQLSeQD1nxO43INS8kqH8x61-p5pnaLTv9slVoE0SEsAQYRTVC1g/viewform) to be notified.
+Registration for NZIC 2021 is now open!
+
+- [Register for NZIC Round 1](https://forms.gle/v78fiP3w5HUH6ibh8).
+- [Sign up to the NZIC mailing list for updates](https://forms.gle/ffK59FdJ5DLmBHgYA).
 
 ### What is Informatics?
 
