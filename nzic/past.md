@@ -15,7 +15,7 @@ nzic_weight: 90
 - [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vRl_NMDVAKudtt-qUPi1z2q3-a3Tq6LZl8abSsQ9IFFNwnEWqephXgucJYDpmGqQZjqd7sYluNskpMc/pubhtml
 )
 - [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQg3eeAYHRtPNVYMU_6olNWTyKtjjsguTsqoriV8hNRrNIY1NDhe_k-ZimanP0jCb7fj9HvRoUKCe_L/pubhtml)
-- Round 3 Solutions -- *to be released at a later date*
+- [Round 3 Solutions](2020/NZIC_2020_R3_Solutions.pdf)
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vS6Jz5N5yKt9z4khTH9DKGopiT-cTLCU0r3sP0t4HlMEsCYVr8UIIdqmCsoVQsJGt6DaTPZPAgbxsz_/pubhtml)
 - [Round 2 Solutions](2020/NZIC_2020_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vS1tjyPMInyZH37ciU6QTwhbip8atbJ1IB4F5KrIXDaphd92ie3d6xxMzXMwVg-x_r_8GAPy_TIHlWS/pubhtml)
