@@ -13,7 +13,7 @@ The contest is open to all students currently enrolled in a secondary school (or
 Registration for NZIC 2021 is now open!
 
 - [Register for NZIC 2021](https://forms.gle/v78fiP3w5HUH6ibh8).
-- [Sign up to the NZIC mailing list for updates](https://forms.gle/ffK59FdJ5DLmBHgYA).
+- [Sign up to the NZIC mailing list for updates](https://forms.gle/Vhe8M6hUMfByhFAA8).
 
 ### What is Informatics?
 
