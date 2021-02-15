@@ -10,7 +10,8 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-Registration for NZIC 2021 is now open!
+**Registration for NZIC 2021 is now open!**  
+Registration will remain open until the competition ends. However, you should register well before you sit the contest - if there is an issue with registration during the contest, we may not be able to respond in time.
 
 - [Register for NZIC 2021](https://forms.gle/v78fiP3w5HUH6ibh8).
 - [Sign up to the NZIC mailing list for updates](https://forms.gle/Vhe8M6hUMfByhFAA8).
