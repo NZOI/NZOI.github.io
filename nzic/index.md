@@ -11,10 +11,12 @@ The contest is open to all students currently enrolled in a secondary school (or
 ### Registration
 
 **Registration for NZIC 2021 is now open!**  
-Registration will remain open until the competition ends. However, you should register well before you sit the contest - if there is an issue with registration during the contest, we may not be able to respond in time.
+Registration for all NZIC rounds will remain open until the last competition day on the 11th of July 2021. However, you should register well before you plan to sit the next round - if there is an issue with registration during a round, we are not guaranteed to respond in time for you to compete in that round. If you have missed a round, or you know that you won't be able to make one of the rounds, you are still welcome to register and compete in the other rounds.
 
-- [Register for NZIC 2021](https://forms.gle/v78fiP3w5HUH6ibh8).
-- [Sign up to the NZIC mailing list for updates](https://forms.gle/Vhe8M6hUMfByhFAA8).
+- [Register for NZIC 2021](https://forms.gle/v78fiP3w5HUH6ibh8) - you will also be signed up to the NZIC mailing list. We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
+
+### Updates
+For interested teachers, parents, and students who do not want to register, you can still [sign up to the NZIC mailing list](https://forms.gle/Vhe8M6hUMfByhFAA8). We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
 
 ### What is Informatics?
 
