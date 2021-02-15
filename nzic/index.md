@@ -10,14 +10,10 @@ The contest is open to all students currently enrolled in a secondary school (or
 
 ### Registration
 
-Registration for NZIC 2021 is now open!
+**Registration for NZIC 2021 is now open!**  
+Registration for all NZIC rounds will remain open until the last competition day on the 11th of July 2021. However, you should register well before you plan to sit the next round - if there is an issue with registration during a round, we are not guaranteed to respond in time for you to compete in that round. If you have missed a round, or you know that you won't be able to make one of the rounds, you are still welcome to register and compete in the other rounds.
 
-- [Register for NZIC 2021](https://forms.gle/v78fiP3w5HUH6ibh8).
-- [Sign up to the NZIC mailing list for updates](https://forms.gle/Vhe8M6hUMfByhFAA8).
-
-### What is Informatics?
-
-In the context of this competition, informatics involves problem-solving with computer programs. Problems of a mathematical nature are posed, and students will write a computer program to solve the problem. The competition tests the efficiency and correctness of the algorithms the students come up with. The use of a programming language is not the goal itself, but rather a method by which a solution is expressed. A big part of informatics is breaking down and understanding the problem itself.
+- [Register for NZIC 2021](https://forms.gle/v78fiP3w5HUH6ibh8) - you will also be signed up to the NZIC mailing list. We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
 
 ### Schedule
 
@@ -26,6 +22,13 @@ There will be 3 rounds in the NZIC 2021. Contest weeks are:
 - Monday Feb 22 to Sunday Feb 28
 - Monday Apr 12 to Sunday Apr 18
 - Monday Jul 5 to Sunday Jul 11
+
+### Updates
+For interested teachers, parents, and students who do not want to register, you can still [sign up to the NZIC mailing list](https://forms.gle/Vhe8M6hUMfByhFAA8). We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
+
+### What is Informatics?
+
+In the context of this competition, informatics involves problem-solving with computer programs. Problems of a mathematical nature are posed, and students will write a computer program to solve the problem. The competition tests the efficiency and correctness of the algorithms the students come up with. The use of a programming language is not the goal itself, but rather a method by which a solution is expressed. A big part of informatics is breaking down and understanding the problem itself.
 
 ### Overview
 
