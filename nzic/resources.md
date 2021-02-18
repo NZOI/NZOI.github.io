@@ -12,6 +12,7 @@ Using [train.nzoi.org.nz](https://train.nzoi.org.nz):
 
 - [How our servers mark your code (Python 3 example)](how-judging-works-python3.pdf)
 - [Understanding judge feedback](understanding-judge-feedback.pdf)
+- [Why did I score zero? - some common mistakes](why-did-i-score-zero.pdf)
 
 Competitive programming books:
 
