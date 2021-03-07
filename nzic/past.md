@@ -6,6 +6,10 @@ nzic_weight: 90
 
 ## Past Winners and Contests
 
+### 2021
+- [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM67MIrl3zoQ-CcuvkkPztcpD_iOHVJccpqljuexgCLSgMjYk8PFdj0YT3dpCZrwtrvOrDOL1jrBwd/pubhtml)
+- [Round 1 Solutions](2021/NZIC_2021_R1_Solutions.pdf)
+
 ### 2020
 
 1. Zhiyuan Qi (Auckland Grammar School)
