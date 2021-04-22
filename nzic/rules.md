@@ -20,7 +20,7 @@ The scoring system is subject to change at the discretion of the contest adminis
 
 Breaching the rules will result in instant disqualification.
 
-Inappropriate behaviour involves being dishonest, taking advantage of our systems, or acting in a way that is not in the spirit of the competition. Behaviour is determined to be inappropriate by the contest administrator and will be dealt with at their discretion. The offending account may be deleted and the student may be disqualified.
+Inappropriate behaviour involves being dishonest, taking advantage of our systems, or acting in a way that is not in the spirit of the competition. Behaviour is determined to be inappropriate by the contest administrator and will be dealt with at their discretion. In particular, the NZIC is an individual competition and __collaboration between competitors is strictly forbidden__. The offending account(s) may be deleted and the student(s) may be disqualified.
 
 ### Eligibility
 
@@ -54,7 +54,7 @@ While competing, students may only access the [https://train.nzoi.org.nz/](https
 
 Students may also use any printed material during the contest, including language documentation, textbooks or source code. These materials may not be shared.
 
-Students may not access or use any electronically stored source code, whether it is stored locally or on the internet. This includes source code written by the student prior to the contest. All source code submitted must be written during the contest, without any collaboration.
+Students may not access or use any electronically stored source code, whether it is stored locally or on the internet. This includes source code written by the student prior to the contest. All source code submitted must be written during the contest, without any collaboration with others.
 
 #### Help
 
