@@ -7,6 +7,8 @@ nzic_weight: 90
 ## Past Winners and Contests
 
 ### 2021
+- [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTczgk-EpoY0E2DiXzqknmec7OuqIEbaKqCuzYSVnAy4ALQ7bN4xD7tBoNbs0ST54fH3dG1C2vwKHbf/pubhtml#)
+- [Round 2 Solutions](2021/NZIC_2021_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM67MIrl3zoQ-CcuvkkPztcpD_iOHVJccpqljuexgCLSgMjYk8PFdj0YT3dpCZrwtrvOrDOL1jrBwd/pubhtml)
 - [Round 1 Solutions](2021/NZIC_2021_R1_Solutions.pdf)
 

@@ -19,8 +19,8 @@ Registration for all NZIC rounds will remain open until the last competition day
 
 There will be 3 rounds in the NZIC 2021. Contest weeks are:
 
-- Monday Feb 22 to Sunday Feb 28
-- Monday Apr 12 to Sunday Apr 18
+- ~~Monday Feb 22 to Sunday Feb 28~~ *Finished*
+- ~~Monday Apr 12 to Sunday Apr 18~~ *Finished*
 - Monday Jul 5 to Sunday Jul 11
 
 ### Updates
