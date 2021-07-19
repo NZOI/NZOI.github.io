@@ -7,6 +7,14 @@ nzic_weight: 90
 ## Past Winners and Contests
 
 ### 2021
+
+1. Nicholas Grace (Burnside High School)
+2. Tobias Devereux (Kavanagh College)
+3. Avery Wright	(Rangitoto College)
+
+- [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vTadQ7iWK51DRVALOoqJQg90Jm9SEn-GGVr1tHtrfBShi6V5hn2cICpX0bdYj2cYt0EqS-Mo3jR9Lbf/pubhtml)
+- [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTFMNkT0IddMM7DwwB4pCN0T0db_Gh_FHh3IJd1j3HdEPfA_TT3f6ExRl3OLLZJJ--Av1bawtkUMooA/pubhtml)
+- [Round 3 Solutions](2021/NZIC_2021_R3_Solutions.pdf)
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTczgk-EpoY0E2DiXzqknmec7OuqIEbaKqCuzYSVnAy4ALQ7bN4xD7tBoNbs0ST54fH3dG1C2vwKHbf/pubhtml#)
 - [Round 2 Solutions](2021/NZIC_2021_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRM67MIrl3zoQ-CcuvkkPztcpD_iOHVJccpqljuexgCLSgMjYk8PFdj0YT3dpCZrwtrvOrDOL1jrBwd/pubhtml)
