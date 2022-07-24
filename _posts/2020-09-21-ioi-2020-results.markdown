@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "IOI 2020 results"
+date:   2020-09-21
+---
+
+![team photo](https://live.staticflickr.com/65535/50825320443_31a09d8a1d_k.jpg)
+
+__Team, left to right:__  
+Joseph Grace, Tom Levy (Technical Leader), Maayan Levy, Zhiyuan Qi, Ivan Solovyev, Jonathan Khoo (Deputy Leader)
+* * *
+
+The 32nd IOI was held by Singapore from 13th September to 19th September. This was the first remote IOI and Waikato University kindly hosted the students sitting the contest.
+
+Unfortunately the host country, Singapore, thought that the best time for the world to sit the contests was the same as Grand Prix viewing times, so the contest days ran from 11pm to 4am in NZ time. Despite such unsocial hours, Ivan gained a bronze medal and was close to the silver medal threshold. We are proud of the entire team for their continued hard work and preparation throughout this year of uncertainty.
+
+Tom was extremely thorough, not only in ensuring that the VMWare was installed, but also in helping Singapore by trialling it early. 
+Our thanks to Bill Rogers at Waikato for enabling the event to happen at all, and to Brad Cowie for proctoring.

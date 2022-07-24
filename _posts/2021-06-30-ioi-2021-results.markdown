@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "IOI 2021 results"
+date:   2021-06-30
+---
+
+![team photo](https://live.staticflickr.com/65535/51275949229_9798d6f384_h.jpg)
+
+__Team, left to right:__  
+Ivan Solovyev (Training Staff), Bruce Chen, Joseph Grace, Zalan Varga, Benjy Smith
+* * *
+
+The 33rd IOI was again held by Singapore from 19th June to 25th June, with hopes of returning to an in-person event in Singapore this year. However, due to continued lockdowns and uncertainty, this year became the second all-remote IOI. At least the hours were marginally more sociable than 2020, with the contest days being held 10pm to 3am. 
+
+Canterbury University kindly offered to host our competitors this year. Our thanks to Prof. Tim Bell for enabling it, Steven Sykes for the technical set up, and our two amazing proctors, Johanna Basevi and Matthew Toohey.
+
+The first day was unusual with very low scores across almost all competitors internationally, and a huge cluster of students at the bronze cut off score. 
+The NZ team did much better on day 2, with 3 students getting one problem solved completely. Unfortunately, this was not quite enough to overcome the rugged day 1. 
+
+The next IOI will be held in Yogyakarta, Indonesia. We look forward to seeing New Zealand compete at a (hopefully) in-person IOI once again.
