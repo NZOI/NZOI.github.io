@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "EGOI 2022 Team"
+date:   2022-08-30
+---
+
+A team has been chosen to represent New Zealand at the 2022 European Girls Olympiad in
+Informatics. This event will be held in October in Turkey, and is only offered on-site. Unfortunately, the costs associated with travel and the risk of potential travel disruptions have made it impossible to attend.
+
+The team chosen is pictured below.
+
+<div class="image-table-wrapper" markdown="block">
+
+| ![Angela Dong](https://live.staticflickr.com/65535/52334835143_4311d409e3_w.jpg) | ![Jasmine Liu](https://live.staticflickr.com/65535/52335025160_d7a38e0ff0_w.jpg) | ![Belle Yin](https://live.staticflickr.com/65535/52335025210_0acd633784_m.jpg) | ![Phoebe Zhang](https://live.staticflickr.com/65535/52334835093_3510ca1011_z.jpg) |
+| ----------- | ----------- | ----------- | ----------- |
+| **Angela Dong** | **Jasmine Liu** | **Belle Yin** | **Phoebe Zhang** |
+| (Y 12, Rangitoto College) | (Y 12, ACG Parnell) | (Y 11, St Cuthbert’s) | (Y 12, Rangitoto College) |
+
+</div>
