@@ -1,0 +1,10 @@
+.image-table-wrapper img {
+    object-fit: contain;
+    max-height: 250px;
+}
+
+@media(max-width: 600px){
+    .image-table-wrapper img {
+        max-height: 100px;
+    }
+}
