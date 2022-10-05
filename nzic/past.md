@@ -7,6 +7,13 @@ nzic_weight: 90
 ## Past Winners and Contests
 ### 2022
 
+1. Anatol Coen (Mount Albert Grammar School)
+2. Zalan Varga (Rangitoto College)
+3. Bruce Chen (Christ's College)
+
+- [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vR4Vk9EJgkwSMNY1408HYRmVxAEsTA8c7_lm_3oSyKi8M38TD_A01IFJcX48fkGuQg3JSObZElAPNoz/pubhtml)
+- [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTOZYfEToGt1tHKZwrOq5FGguJ6Z-a5ocS3IGCMfG4RrbdDaMGFt-oFW-eYhgLVlafA31vcU1sQqIR1/pubhtml)
+- Round 3 Solutions Coming Soon
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQzYV3IRnxZTVDSFjQae4kMFR2j6kbbZnmrwLSyrDo0P_gX5UMRq7lIp0nJfEl44c70souI9LWf839u/pubhtml)
 - [Round 2 Solutions](2022/NZIC_2022_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTdQVkFVG0kZ9qTm5Wlhkf1vhzOdR7ZTVm5clguxZmFyteW0vIyswr4L-ONrjjc27oiUenLSD9z2UKL/pubhtml)
