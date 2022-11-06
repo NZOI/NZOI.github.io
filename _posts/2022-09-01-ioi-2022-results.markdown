@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "IOI 2022 results"
+date:   2022-09-01
+---
+
+IOI 2022 was a hybrid contest, hosted both onsite and online by Indonesia from August 7 to 15. About ⅔ of
+countries attended onsite but New Zealand competed online.
+
+The NZ team consisted of:  
+**Nicholas Grace**, Burnside High, Christchurch (First Year University)  
+**Bruce Chen**, Christ's College, Christchurch (Year 13)  
+**Zalan Varga**, Rangitoto College, Auckland (Year 13)  
+**Phoebe Zhang**, Rangitoto College, Auckland (Year 12)  
+
+The leaders were Suzanne Scott and Eric Song. Canterbury University again hosted the contest; a
+huge thanks to Tim Bell and Steven Sykes for organising and setting up the labs with the requisite
+software. Unfortunately, Nicholas had to compete from home due to Covid-19, so there was a
+scramble to get a laptop to him and ensure the online video proctoring was in place. Many thanks to
+our 3 proctors: Lydia Looi and Michelle Hseih from Canterbury University, and Andrea Gallop, a
+teacher from Papanui High School. Michelle went above and beyond to ensure the video recordings
+of Nicholas competing were faultless.
+
+The contests and practice session were at a much more acceptable time this year, running from 6pm to
+11pm. Nicholas gained a bronze medal, which was very impressive given he was unwell. Zalan lifted
+his ranking by over 60 places, and Bruce by 40 compared with their 2021 rankings. Phoebe, as the
+first timer, also performed creditably.
+
+![Team, Left to Right: Phoebe, Zalan, Bruce (Absent: Nicholas)](https://live.staticflickr.com/65535/52482596680_9138447931_z.jpg)  
+**Team, Left to Right**: Phoebe, Zalan, Bruce (Absent: Nicholas)
