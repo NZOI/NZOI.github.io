@@ -4,22 +4,22 @@ layout: nzic_page
 nzic_weight: 0
 ---
 
-The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2022! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
+The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2023! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
 
 ### Registration
 
-**Registration for NZIC 2022 is now open!**  
-Registration for all NZIC rounds will remain open until the last competition day on the 28th of August 2022. However, you should register well before you plan to sit the next round - if there is an issue with registration during a round, we are not guaranteed to respond in time for you to compete in that round. If you have missed a round, or you know that you won't be able to make one of the rounds, you are still welcome to register and compete in the other rounds.
+**Registration for NZIC 2023 is now open!**  
+Registration for all NZIC rounds will remain open until the last competition day in Term 3. However, you should register well before you plan to sit the next round - if there is an issue with registration during a round, we are not guaranteed to respond in time for you to compete in that round. If you have missed a round, or you know that you won't be able to make one of the rounds, you are still welcome to register and compete in the other rounds.
 
-- [Register for NZIC 2022](https://forms.gle/v78fiP3w5HUH6ibh8) - you will also be signed up to the NZIC mailing list. We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
+- [Register for NZIC 2023](https://forms.gle/v78fiP3w5HUH6ibh8) - you will also be signed up to the NZIC mailing list. We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
 
 ### Schedule
 
-There will be 3 rounds in NZIC 2022. Contest weeks are:
+There will be 3 rounds in NZIC 2023. Contest weeks are:
 
-- ~~Monday Apr 11 to Sunday Apr 17~~ __Finished__
-- Monday Jul 4 to Sunday Jul 10
-- Monday Aug 22 to Sunday Aug 28
+- Monday 3 April - Sunday 9 April
+- Monday 26 June - Sunday 2 July
+- Monday 14 August - Sunday 20 August
 
 ### Updates
 
