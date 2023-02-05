@@ -19,7 +19,7 @@ disciplined but also clearly had fun and enjoyed the experience. The Algorithms 
 by Prof. Tim Bell, Dr. Richard Lobb and Dr. Neil Leslie (Data Structures and Searching and Sorting
 Algorithms, DP and Graphs respectively), while the Experienced group had lectures from our tutors 
 on topics such as Lowest Common Ancestor, Computational Geometry, Range DP,
-Segment Trees, and more. Thanks to Eric, Janindu, Nicholas, Joseph and
+Segment Trees, and more. Thanks to Bruce, Eric, Janindu, Joseph, Nicholas and
 Zalan for taking those sessions as well as tutoring the Algorithms group. Students seemed very happy with
 the level of support available.
 
