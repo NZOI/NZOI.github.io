@@ -23,4 +23,4 @@ Thanks again to all the lecturers and tutors involved, thanks to Tom for help wi
 
 * * *
 
-If you're a student who didn't go to camp, but who thinks this sounds fun, then participate in [NZIC](../nzic)! It's a free online competition, run throughout the year, with some problems approachable to newcomers and some hard ones to work towards. NZIC participants will be contacted towards the end of the year about selection for January Camp 2019.
+If you're a student who didn't go to camp, but who thinks this sounds fun, then participate in [NZIC](/nzic)! It's a free online competition, run throughout the year, with some problems approachable to newcomers and some hard ones to work towards. NZIC participants will be contacted towards the end of the year about selection for January Camp 2019.
