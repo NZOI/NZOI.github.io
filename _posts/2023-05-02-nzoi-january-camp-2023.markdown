@@ -42,8 +42,8 @@ Margot
 
 
 ![camp photo](https://live.staticflickr.com/65535/52668529962_ce431bbc74_k.jpg)
-As always, check out the [gallery](../gallery) for more photos.
+As always, check out the [gallery](/gallery) for more photos.
 
 * * *
 
-If you're a student who didn't go to camp, but who thinks this sounds fun, then participate in [NZIC](../nzic)! It's a free online competition, run throughout the year, with some problems approachable to newcomers and some hard ones to work towards. NZIC participants will be contacted towards the end of the year about selection for January Camp 2024.
+If you're a student who didn't go to camp, but who thinks this sounds fun, then participate in [NZIC](/nzic)! It's a free online competition, run throughout the year, with some problems approachable to newcomers and some hard ones to work towards. NZIC participants will be contacted towards the end of the year about selection for January Camp 2024.
