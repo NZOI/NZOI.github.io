@@ -4,6 +4,11 @@ layout: nzic_page
 nzic_weight: 90
 ---
 
+## Current Round
+### 2023
+
+- [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTFIK71On3FOIDbErWIta-QB94s2-w6uSm_nUShuHA7bu593i_P6XLaQp7tU1zQDviuhsdxRoF5JzZl/pubhtml?gid=1731142495)
+
 ## Past Winners and Contests
 ### 2022
 
@@ -13,7 +18,6 @@ nzic_weight: 90
 
 - [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vR4Vk9EJgkwSMNY1408HYRmVxAEsTA8c7_lm_3oSyKi8M38TD_A01IFJcX48fkGuQg3JSObZElAPNoz/pubhtml)
 - [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTOZYfEToGt1tHKZwrOq5FGguJ6Z-a5ocS3IGCMfG4RrbdDaMGFt-oFW-eYhgLVlafA31vcU1sQqIR1/pubhtml)
-- Round 3 Solutions Coming Soon
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQzYV3IRnxZTVDSFjQae4kMFR2j6kbbZnmrwLSyrDo0P_gX5UMRq7lIp0nJfEl44c70souI9LWf839u/pubhtml)
 - [Round 2 Solutions](2022/NZIC_2022_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTdQVkFVG0kZ9qTm5Wlhkf1vhzOdR7ZTVm5clguxZmFyteW0vIyswr4L-ONrjjc27oiUenLSD9z2UKL/pubhtml)
