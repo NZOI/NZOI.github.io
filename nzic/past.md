@@ -8,6 +8,7 @@ nzic_weight: 90
 ### 2023
 
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTFIK71On3FOIDbErWIta-QB94s2-w6uSm_nUShuHA7bu593i_P6XLaQp7tU1zQDviuhsdxRoF5JzZl/pubhtml?gid=1731142495)
+- [Round 1 Solutions](2023/NZIC_2023_R1_Solutions.pdf)
 
 ## Past Winners and Contests
 ### 2022
