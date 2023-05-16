@@ -25,7 +25,7 @@ weight: 40
             {% if sponsor.sponsor_logo %}
             <img class="is-centered" src="/images/sponsors/{{sponsor.sponsor_logo}}" alt="{{sponsor.name}}" />
             {% else %}
-            <div class="sponsor-name-text">{{sponsor.name}}</div>
+            <div class="sponsor-name-text{% if sponsor.name.size > 100 %} small{% endif %}">{{sponsor.name}}</div>
             {% endif %}
           </figure>
         </div>
