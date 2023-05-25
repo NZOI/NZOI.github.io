@@ -12,4 +12,7 @@
     padding: 4px;
     font-size: 1.5em;
     line-height: 1.2em;
+    &.small {
+        font-size: 1em;
+    }
 }
