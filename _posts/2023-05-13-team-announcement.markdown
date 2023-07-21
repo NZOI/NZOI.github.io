@@ -11,3 +11,11 @@ IOI 2023 is to be held in Szeged, Hungary from 28th of August to 4th of Septembe
 
 They have been training hard and spent the April school holidays joining in with the Australian Informatics April camp run by AMT. The first half was conducted virtually and then 3 of the team travelled to Sydney for further onsite training. That trip was led by Bruce Chen. 
 
+
+<div class="image-table-wrapper" markdown="block">
+
+| ![Anatol Coen](/images/posts/2023-05-13-AnatolCoen.jpg) | ![GuanHan Li](/images/posts/2023-05-13-GuanHanLi.jpg) | ![Jonathon Sun](/images/posts/2023-05-13-JonathonSun.jpg) | ![Phoebe Zhang](/images/posts/2023-05-13-PhoebeZhang.jpg) |
+| ----------- | ----------- | ----------- | ----------- |
+| **Anatol Coen** | **GuanHan Li** | **Jonathon Sun** | **Phoebe Zhang** |
+
+</div>

@@ -12,7 +12,7 @@ The team will sit the 2 contests at AUT on July 17 and July 19.
 
 <div class="image-table-wrapper" markdown="block">
 
-| ![Jasmine Liu](https://live.staticflickr.com/65535/52335025160_d7a38e0ff0_w.jpg) | ![Belle Yin](https://live.staticflickr.com/65535/52335025210_0acd633784_m.jpg) | ![Ena Yin](https://live.staticflickr.com/65535/52949763983_189f173027_n.jpg) | ![Phoebe Zhang](https://live.staticflickr.com/65535/52949691030_377e51c8eb_w.jpg) |
+| ![Jasmine Liu](https://live.staticflickr.com/65535/52335025160_d7a38e0ff0_w.jpg) | ![Belle Yin](https://live.staticflickr.com/65535/52335025210_0acd633784_m.jpg) | ![Ena Yin](https://live.staticflickr.com/65535/52949763983_189f173027_n.jpg) | ![Phoebe Zhang](/images/posts/2023-05-13-PhoebeZhang.jpg) |
 | ----------- | ----------- | ----------- | ----------- |
 | **Jasmine Liu** | **Belle Yin** | **Ena Yin** | **Phoebe Zhang** |
 
