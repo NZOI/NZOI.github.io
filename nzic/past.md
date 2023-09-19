@@ -4,14 +4,20 @@ layout: nzic_page
 nzic_weight: 90
 ---
 
-## Current Round
+## Past Winners and Contests
 ### 2023
 
+1. Phoebe Zhang (Rangitoto College)
+2. Anatol Coen (Mount Albert Grammar School)
+3. Jonathon Sun (Rangitoto College)
+
+- [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vTsasEe7Zb4pUIxqvJG161xZVCjaeIWRNMN0DIQaGF04ro4oC-Yt9P0lDywA37WHBWaZChZ4JiYvYUO/pubhtml?gid=1069864156)
+- [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQQgOKThNAyJMmnq46F6z0-5xEAPAzAVbX6p2Y_Rh4kLjivHpU_QRTDLJxBLz0UESdIbvU5ykt-NWDC/pubhtml?gid=1731142495)
+- Round 3 Solutions - Coming soon
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQWSb4eLyTvMrANlJ6A9_bj9YY5ACv43Iu3Nv2S4cK535tR0ub5EuEnl_0OeF9poCSg-1rtwPHiOTCb/pubhtml)
+- [Round 2 Solutions](2023/NZIC_2023_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTFIK71On3FOIDbErWIta-QB94s2-w6uSm_nUShuHA7bu593i_P6XLaQp7tU1zQDviuhsdxRoF5JzZl/pubhtml)
 - [Round 1 Solutions](2023/NZIC_2023_R1_Solutions.pdf)
-
-## Past Winners and Contests
 ### 2022
 
 1. Anatol Coen (Mount Albert Grammar School)
