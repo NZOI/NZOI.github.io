@@ -1,3 +1,26 @@
+- year: 2023
+  sponsors:
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: The Royal Society of New Zealand
+      sponsor_logo: royal_new.jpg
+    -
+      name: University of Auckland
+      sponsor_logo: uoa.png
+    -
+      name: PTLComputers
+      sponsor_logo: ptl-computers.png
+    - name: "Givealittle Donors: Amelia, Andrew, Angl, BH, Cindy, Craig, Guest Donors (7), Joe Cho, Jono, Juliette, Luke, Matt, Phoebe, Rebecca, Rory, Suzie, Thomas, Tobi, William, Yan"
+- year: 2022
+  sponsors:
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: Jamie McCloskey
+      sponsor_logo: 
 - year: 2021
   sponsors:
     -
