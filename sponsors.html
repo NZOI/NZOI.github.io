@@ -13,11 +13,17 @@ weight: 40
     <h3 class="subtitle">{{sponsors.year}}</h3>
     <div class="columns">
       {% assign sortedSponsors = sponsors.sponsors | sort: 'name' %}
+      {% assign sponsorindex = 0 %}
       {% for sponsor in sortedSponsors %}
       {% assign loopindex = forloop.index | modulo: 4 %}
-      {% if loopindex == 1 %}
+      {% if sponsorindex == 0 %}
     </div>
     <div class="columns ">
+      {% endif %}
+      {% if sponsor.reset %}
+        {% assign sponsorindex = 0 %}
+      {% else %}
+        {% assign sponsorindex = sponsorindex | plus:1 | modulo: 4%}
       {% endif %}
       <div class="column is-3">
         <div class="sponsor-card">
