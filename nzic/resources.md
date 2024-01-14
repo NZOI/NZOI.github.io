@@ -34,7 +34,7 @@ You can also find problems at these online judges:
 Miscellaneous:
 
 - Graphs: [https://visualgo.net/en](https://visualgo.net/en) and [http://graphonline.ru/en/](http://graphonline.ru/en/)
-- [IOI Syllabus (2018)](https://people.ksp.sk/~misof/ioi-syllabus/ioi-syllabus.pdf)
+- [IOI Syllabus (2023)](https://ioinformatics.org/files/ioi-syllabus-2023.pdf)
 - [Datastructures](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 - [https://www.codingame.com](https://www.codingame.com)
 
