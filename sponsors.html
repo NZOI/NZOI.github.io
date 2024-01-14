@@ -15,7 +15,6 @@ weight: 40
       {% assign sortedSponsors = sponsors.sponsors | sort: 'name' %}
       {% assign sponsorindex = 0 %}
       {% for sponsor in sortedSponsors %}
-      {% assign loopindex = forloop.index | modulo: 4 %}
       {% if sponsorindex == 0 %}
     </div>
     <div class="columns ">
