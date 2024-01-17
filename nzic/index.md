@@ -17,7 +17,7 @@ Registration for all NZIC rounds will remain open until the last competition day
 
 There will be 3 rounds in NZIC 2024. Contest weeks are:
 
-- Monday 8 April - Moday 14 April
+- Monday 8 April - Sunday 14 April
 - Monday 1 July - Sunday 7 July
 - Monday 19 August - Sunday 25 August
 
