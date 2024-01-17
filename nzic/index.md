@@ -15,13 +15,11 @@ Registration for all NZIC rounds will remain open until the last competition day
 
 ### Schedule
 
-There will be 3 rounds in NZIC 2024. This year's contest schedule will be released soon. 
+There will be 3 rounds in NZIC 2024. Contest weeks are:
 
-**Last year's** contest schedule was:
-
-- Monday 3 April 2023 - Sunday 9 April 2023
-- Monday 26 June 2023 - Sunday 2 July 2023
-- Monday 14 August 2023 - Sunday 20 August 2023
+- Monday 8 April - Sunday 14 April
+- Monday 1 July - Sunday 7 July
+- Monday 19 August - Sunday 25 August
 
 ### Updates
 
