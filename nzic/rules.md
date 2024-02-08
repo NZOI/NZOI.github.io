@@ -22,6 +22,8 @@ Breaching the rules will result in instant disqualification.
 
 Inappropriate behaviour involves being dishonest, taking advantage of our systems, or acting in a way that is not in the spirit of the competition. Behaviour is determined to be inappropriate by the contest administrator and will be dealt with at their discretion. In particular, the NZIC is an individual competition and __collaboration between competitors is strictly forbidden__. The offending account(s) may be deleted and the student(s) may be disqualified.
 
+You are **NOT** allowed to use any generative AI. Examples of prohibited tools are: AI assistants such as ChatGPT, editor extensions such as Github Copilot, or AI assistants built into IDEs (e.g latest versions of Replit). The guiding principle here is that this is a challenge for students, not AIs.
+
 ### Eligibility
 
 Any person who is currently enrolled in a New Zealand secondary or intermediate school. Non-eligible students may still compete but they will not be offically ranked.
@@ -31,6 +33,8 @@ Any person who is currently enrolled in a New Zealand secondary or intermediate 
 Each contest will be held online. After logging into [https://train.nzoi.org.nz/](https://train.nzoi.org.nz/), the contest will appear at the start time. When ready, students may start the contest. The 3 hours will begin at that time. The problems will be visible on the contest page, and submissions may be made from there. To submit a solution, students submit the source code, which will be compiled and executed on the judging system.
 
 After the submission is judged, the results will appear immediately. Students may use this to fix any bugs. There are no guarantees on how long it might take for the submission to be judged, if there are a large number of submissions made at the same time.
+
+You are allowed to use any programming IDE that you usually use. If the IDE has built-in AI assistance, this must be turned off during the contest.
 
 #### Programming languages
 
