@@ -22,7 +22,7 @@ Breaching the rules will result in instant disqualification.
 
 Inappropriate behaviour involves being dishonest, taking advantage of our systems, or acting in a way that is not in the spirit of the competition. Behaviour is determined to be inappropriate by the contest administrator and will be dealt with at their discretion. In particular, the NZIC is an individual competition and __collaboration between competitors is strictly forbidden__. The offending account(s) may be deleted and the student(s) may be disqualified.
 
-You are **NOT** allowed to use any generative AI. Examples of prohibited tools are: AI assistants such as ChatGPT, editor extensions such as Github Copilot, or AI assistants built into IDEs (e.g latest versions of Replit). The guiding principle here is that this is a challenge for students, not AIs.
+You are **NOT** allowed to use any generative AI. Examples of prohibited tools are: AI assistants such as ChatGPT, editor extensions such as GitHub Copilot, or AI assistants built into IDEs (e.g. latest versions of Replit). The guiding principle here is that this is a challenge for students, not AIs.
 
 ### Eligibility
 
