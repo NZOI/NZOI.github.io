@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "The 2024 IOI Team"
+date:   2024-05-01
+author: Anatol Coen
+---
+
+Later this year, Victor Coen (Mount Albert Grammar School), GuanHan Li (Murrays Bay Intermediate School), Jesse Zhang (Macleans College), and Peter (Xiaotian) Zhou (Auckland Grammar School) will be representing New Zealand at the International Olympiad in Informatics. The reserve is Vedang Patil (Newlands College).
+
+The IOI will be held in Alexandria, Egypt from the 1st to the 8th of September. The team will be led by Nicholas Grace and Bruce Chen. Suzanne Scott will be accompanying them as manager.
+
+The team has already started training. Last week they virtually attended the Australian Informatics April Camp run by AMT.
