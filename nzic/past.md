@@ -4,7 +4,13 @@ layout: nzic_page
 nzic_weight: 90
 ---
 
+## Current Round
+### 2024
+- [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQbNb0ZRcdhOInMa3D1OFSsdSIbJ0Moh10Taj0Xc5fLE_VYHrm-alYE2X7WJES2w0k8ZZiq7Z2Bh2F8/pubhtml)
+- [Round 1 Solutions](2024/NZIC_2024_R1_Solutions.pdf)
+
 ## Past Winners and Contests
+
 ### 2023
 
 1. Phoebe Zhang (Rangitoto College)
