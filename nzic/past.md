@@ -4,6 +4,11 @@ layout: nzic_page
 nzic_weight: 90
 ---
 
+## Current Round
+### 2024
+- [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQbNb0ZRcdhOInMa3D1OFSsdSIbJ0Moh10Taj0Xc5fLE_VYHrm-alYE2X7WJES2w0k8ZZiq7Z2Bh2F8/pubhtml)
+- [Round 1 Solutions](2024/NZIC_2024_R1_Solutions.pdf)
+
 ## Past Winners and Contests
 ### 2023
 
@@ -18,8 +23,8 @@ nzic_weight: 90
 - [Round 2 Solutions](2023/NZIC_2023_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTFIK71On3FOIDbErWIta-QB94s2-w6uSm_nUShuHA7bu593i_P6XLaQp7tU1zQDviuhsdxRoF5JzZl/pubhtml)
 - [Round 1 Solutions](2023/NZIC_2023_R1_Solutions.pdf)
-### 2022
 
+### 2022
 1. Anatol Coen (Mount Albert Grammar School)
 2. Zalan Varga (Rangitoto College)
 3. Bruce Chen (Christ's College)
