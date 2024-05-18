@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "New Zealand's 2024 EGOI Team"
+date:   2024-05-18
+author: Anatol Coen
+---
+
+The selection process has concluded and Julia Escoto (Macleans College), Juno Rainey (Papanui High School), Hannah Withers (St Andrew's College) and Ellie Zhou (St Andrew's College) have been selected to represent New Zealand at the 2024 European Girls' Olympiad in Informatics (EGOI) in Veldhoven, The Netherlands.
+
+Margot Phillips, Phoebe Zhang and Jasmine Liu will be accompanying them as team leader, deputy leader and guest respectively.
+
+The EGOI was first held online in 2021 and in person in 2022 with the goal of providing a platform for young women and non-binary people to enjoy and deepen their interest in computer science. After having participated in every EGOI, this will be the first year where New Zealand attends in person!
