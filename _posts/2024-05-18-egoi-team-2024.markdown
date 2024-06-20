@@ -9,4 +9,13 @@ The selection process has concluded and Julia Escoto (Macleans College), Juno Ra
 
 Margot Phillips, Phoebe Zhang and Jasmine Liu will be accompanying them as team leader, deputy leader and guest respectively.
 
-The EGOI was first held online in 2021 and in person in 2022 with the goal of providing a platform for young women and non-binary people to enjoy and deepen their interest in computer science. After having participated in every EGOI, this will be the first year where New Zealand attends in person!
+The EGOI was first held online in 2021 and in person in 2022 with the goal of providing a platform for young women and non-binary people to enjoy and deepen their interest in computer science. After having participated remotely in EGOI 2021 and 2023, this will be the first year where New Zealand attends in person!
+
+## Team
+<div class="image-table-wrapper" markdown="block">
+
+| ![Julia Escoto](/images/posts/2024-05-18-JuliaEscoto.jpg) | ![Juno Rainey](/images/posts/2024-05-18-JunoRainey.jpg) | ![Hannah Withers](/images/posts/2024-05-18-HannahWithers.jpg) | ![Ellie Zhou](/images/posts/2024-05-18-EllieZhou.jpg)
+| ----------- | ----------- | ----------- | ----------- |
+| **Julia Escoto** | **Juno Rainey** | **Hannah Withers** | **Ellie Zhou** |
+
+</div>
