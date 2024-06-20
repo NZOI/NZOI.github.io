@@ -10,3 +10,12 @@ Later this year, Victor Coen (Mount Albert Grammar School), GuanHan Li (Murrays 
 The IOI will be held in Alexandria, Egypt from the 1st to the 8th of September. The team will be led by Nicholas Grace and Bruce Chen. Suzanne Scott will be accompanying them as manager.
 
 The team has already started training. Last week they virtually attended the Australian Informatics April Camp run by AMT.
+
+## Team
+<div class="image-table-wrapper" markdown="block">
+
+| ![Victor Coen](/images/posts/2024-05-01-VictorCoen.jpg) | ![GuanHan Li](/images/posts/2023-05-13-GuanHanLi.jpg) | ![Jesse Zhang](/images/posts/2024-05-01-JesseZhang.jpg) | ![Peter (Xiaotian) Zhou](/images/posts/2024-05-01-PeterXiaotianZhou.jpg)
+| ----------- | ----------- | ----------- | ----------- |
+| **Victor Coen** | **GuanHan Li** | **Jesse Zhang** | **Peter (Xiaotian) Zhou** |
+
+</div>
