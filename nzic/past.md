@@ -6,6 +6,8 @@ nzic_weight: 90
 
 ## Current Round
 ### 2024
+- [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuojSaYqHvxy-LSkFguLMRWyajnLl_kkdcrWUBicqSjwpAZ77Vhu6mlvlDV92R9eNJXYT62eBt5IRU/pubhtml)
+- [Round 2 Solutions](2024/NZIC_2024_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQbNb0ZRcdhOInMa3D1OFSsdSIbJ0Moh10Taj0Xc5fLE_VYHrm-alYE2X7WJES2w0k8ZZiq7Z2Bh2F8/pubhtml)
 - [Round 1 Solutions](2024/NZIC_2024_R1_Solutions.pdf)
 
