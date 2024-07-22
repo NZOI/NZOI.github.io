@@ -4,6 +4,24 @@ title: Blog Archive
 permalink: /blog/archive/
 ---
 
+<style scoped>
+    .archive-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .archive-grid .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    @media screen and (min-width: 980px) {
+        .archive-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+</style>
+
 <div style="padding-left: 12.5%; padding-right: 12.5%;background-color: white;">
     <div style="text-align: center;"><h2 class="title">Blog Archive</h2></div>
     <div class="archive-grid">
