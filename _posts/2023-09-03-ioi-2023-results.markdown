@@ -4,7 +4,7 @@ title:  "IOI 2023: Outstanding Results"
 date:   2023-09-03
 ---
 
-The 2023 New Zealand team kept scoreboard watchers entertained for 5 hours on the second competition night, as they took turns getting marks that pushed them into bronze medal contention, and then falling back as they were leap frogged by other contestants. It was the most exciting and nail-biting viewing since NZ first competed (back in 2006!). There were 21 places between our entire team (out of over 350 contestants), with Anatol, GuanHan and Phoebe gaining bronze medals and Jonathon gaining an Honorable Mention. In an IOI an HM means a score that would have got a medal of one of the two days. We are enormously proud of the entire team. 
+The 2023 New Zealand team kept scoreboard watchers entertained for 5 hours on the second competition night, as they took turns getting marks that pushed them into bronze medal contention, and then falling back as they were leap frogged by other contestants. It was the most exciting and nail-biting viewing since NZ first competed (back in 2006!). There were 21 places between our entire team (out of over 350 contestants), with Anatol, GuanHan and Phoebe gaining bronze medals and Jonathon gaining an Honorable Mention. In an IOI an HM means a score that would have got a medal on one of the two days. We are enormously proud of the entire team. 
 
 <img src="/images/posts/2023-09-03-team-photo.jpg" alt="Team photo with medals"/>
 <img src="/images/posts/2023-09-03-team-with-ben.jpg" alt="Team photo with IOI President"/>
