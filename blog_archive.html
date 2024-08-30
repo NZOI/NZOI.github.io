@@ -1,0 +1,40 @@
+---
+layout: default
+title: Blog Archive
+permalink: /blog/archive/
+---
+
+<style>
+    .archive-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .archive-grid .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    @media screen and (min-width: 980px) {
+        .archive-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+</style>
+
+<div style="padding-left: 12.5%; padding-right: 12.5%;background-color: white;">
+    <div style="text-align: center;"><h2 class="title">Blog Archive</h2></div>
+    <div class="archive-grid">
+        {% for post in site.posts %}
+            <div class="container">
+                <div class="post box">
+                    <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                    
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+                    
+                    <p>Posted on <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
