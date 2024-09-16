@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Inaugural International AI Olympiad and Inaugural Gold!"
+date:   2024-09-17
+author: "Margot Phillipps"
+---
+
+New Zealand was invited in late July to join the first International AI Olympiad, to be hosted by Saudi Arabia. Two students from the IOI team, GuanHan and Victor, expressed interest, and were taken to Riyadh, Saudi Arabia at the conclusion of IOI. They had very little preparation time. 
+
+The contest consisted of one five hour written test on theory that had been covered in a series of webinars released in the months prior to IAIO. The 2nd contest day was practical (coding) using the Zindi platform to predict forest fires in the MENA region based on monthly data of weather, vegetation etc. variables. 
+
+There were 90 students from 25 countries present, many of whom had also been at IOI. Both New Zealand students excelled on the 2nd day, with Victor leading the public scoreboard. This was based on running the model on 30% of the test data. Final scores were based on the other 70%. 
+
+Victor secured a gold medal, (NZ's first in either Informatics or AI) and GuanHan a bronze medal.
+
+<img src="/images/posts/2024-09-17-IAIO-Medals.jpg" width=600>
