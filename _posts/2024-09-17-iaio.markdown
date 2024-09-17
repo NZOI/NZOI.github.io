@@ -13,4 +13,11 @@ There were 90 students from 25 countries present, many of whom had also been at 
 
 Victor secured a gold medal, (NZ's first in either Informatics or AI) and GuanHan a bronze medal.
 
+The team with their medals:<br>
 <img src="/images/posts/2024-09-17-IAIO-Medals.jpg" width=600>
+
+The team with their guide:<br>
+<img src="/images/posts/2024-09-17-IAIO-Team.jpg" width=600>
+
+The practice contest:<br>
+<img src="/images/posts/2024-09-17-IAIO-Contest.jpg" width=600>
