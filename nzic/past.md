@@ -4,14 +4,21 @@ layout: nzic_page
 nzic_weight: 90
 ---
 
-## Current Round
+## Past Winners and Contests
 ### 2024
+
+1. Guan Han Li (Murrays Bay Intermediate School)
+2. Jay Zhao (Macleans College)
+3. Keen Leung (Kristin School)
+
+- [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vSzUrQbnXG0onNhJKukNcJJ4aqVO_3hHOgZwlmMwN1ELj4EnVH1UHXldBAbrfnOoeGIIiCm_Ysjmq0l/pubhtml)
+- [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRyjTZ63KboF9DRPtoooNiTR7CLpapOiWXENH-bwsduXlRc-1dXBEnEGKQpYBt7wjF52B4QD0xfvWIj/pubhtml)
+- [Round 3 Solutions](2024/NZIC_2024_R3_Solutions.pdf)
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuojSaYqHvxy-LSkFguLMRWyajnLl_kkdcrWUBicqSjwpAZ77Vhu6mlvlDV92R9eNJXYT62eBt5IRU/pubhtml)
 - [Round 2 Solutions](2024/NZIC_2024_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQbNb0ZRcdhOInMa3D1OFSsdSIbJ0Moh10Taj0Xc5fLE_VYHrm-alYE2X7WJES2w0k8ZZiq7Z2Bh2F8/pubhtml)
 - [Round 1 Solutions](2024/NZIC_2024_R1_Solutions.pdf)
 
-## Past Winners and Contests
 ### 2023
 
 1. Phoebe Zhang (Rangitoto College)
