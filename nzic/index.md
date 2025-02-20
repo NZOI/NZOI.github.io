@@ -6,8 +6,10 @@ nzic_weight: 0
 
 The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, is continuing in 2025! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
 
-**Registration for NZIC 2025 will open soon!**  
+**Registration for NZIC 2025 is now open!**  
 Registration for all NZIC rounds will remain open until the last competition day in Term 3. However, you should register well before you plan to sit the next round &mdash; if there is an issue with registration during a round, we cannot guarantee that we will respond in time for you to compete in that round. If you have missed a round, or you know that you won't be able to make one of the rounds, you are still welcome to register and compete in the other rounds.
+
+- <a href = "https://forms.gle/bjtAa4oqr4am1uFZ8" target="_blank" rel="noopener noreferrer">Register for NZIC 2025</a> - you will also be signed up to the NZIC mailing list. We will keep you informed about upcoming rounds, results, solutions, and camp selection. You may unsubscribe at any time.
 
 ### Schedule
 
