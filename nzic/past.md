@@ -3,6 +3,10 @@ title: Past Contests
 layout: nzic_page
 nzic_weight: 90
 ---
+## Current Round
+### 2025
+- [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRtwc6Be_EJnmJOZeFSqGS4dkKKAJYgX3fc1FLOY69eMhlFrcC9SzlTMEB2arQYC6PfFsPpwf4Ctmzs/pubhtml)
+- [Round 1 Solutions](2025/NZIC_2025_R1_Solutions.pdf)
 
 ## Past Winners and Contests
 ### 2024
