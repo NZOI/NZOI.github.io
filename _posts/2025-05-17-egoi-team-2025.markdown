@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "New Zealand's 2025 EGOI Team"
+date:   2025-05-17
+author: Anatol Coen
+---
+
+This year, New Zealand's European Girls' Olympiad in Informatics team will be: Georgia Gill (Wellington Girls' College), Ava Heath Williams (Burnside High School), Juno Rainey (Papanui High School) and Vicky Zhao (Elim Christian College Mt Albert). They will be accompanied by Anatol Coen and Briar Tait.
+
+The 2025 edition of the European Girls' Olympiad in Informatics will be held in Bonn, Germany between the 14th and the 20th of July.
+
+## Team
+<div class="image-table-wrapper" markdown="block">
+
+| ![Georgia Gill](/images/posts/2025-05-03-Georgia.jpg) | ![Ava Heath Williams](/images/posts/2025-05-03-Ava.jpg) | ![Juno Rainey](/images/posts/2024-05-18-JunoRainey.jpg) | ![Vicky Zhao](/images/posts/2025-05-03-Vicky.jpg)
+| ----------- | ----------- | ----------- | ----------- |
+| **Georgia Gill** | **Ava Heath Williams** | **Juno Rainey** | **Vicky Zhao** |
+
+</div>
