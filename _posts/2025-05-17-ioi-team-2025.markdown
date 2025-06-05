@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "The 2025 IOI Team"
+date:   2025-05-17
+author: Anatol Coen
+---
+
+Later this year, Victor Coen (Mount Albert Grammar School), Boliang (Eric) Liu (Macleans College), Tymon Mieszkowski (Long Bay College), and Jiahong (Kai) Yu will be travelling to Bolivia where they will be representing New Zealand at the 37th International Olympiad in Informatics.
+
+The IOI will be held in Sucre, Bolivia from the 27th of July to the 3rd of August. The team will be led by Nicholas Grace and Ravid Aharon.
+
+The team has been training since January. They have just recently returned from Sydney where they attended the Australian Informatics April Camp run by AMT.
+
+## The team at the airport
+Taken before leaving for the Australian Informatics April Camp
+![The team at the airport](/images/posts/2025-05-17-ioi-team.jpg)
+
+## Team
+<div class="image-table-wrapper" markdown="block">
+
+| ![Victor Coen](/images/posts/2025-05-17-Victor.jpg) | ![Boliang (Eric) Liu](/images/posts/2025-05-17-Eric.png) | ![Tymon Mieszkowski](/images/posts/2025-05-17-Tymon.jpg) | ![Jiahong (Kai) Yu](/images/posts/2025-05-17-Kai.jpg)
+| ----------- | ----------- | ----------- | ----------- |
+| **Victor Coen** | **Boliang (Eric) Liu** | **Tymon Mieszkowski** | **Jiahong (Kai) Yu** |
+
+
+
+</div>
