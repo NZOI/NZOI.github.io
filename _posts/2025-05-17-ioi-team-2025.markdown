@@ -5,7 +5,7 @@ date:   2025-05-17
 author: Anatol Coen
 ---
 
-Later this year, Victor Coen (Mount Albert Grammar School), Boliang (Eric) Liu (Macleans College), Tymon Mieszkowski (Long Bay College), and Jiahong (Kai) Yu will be travelling to Bolivia where they will be representing New Zealand at the 37th International Olympiad in Informatics.
+Later this year, Victor Coen (Mount Albert Grammar School), Boliang (Eric) Liu (Macleans College), Tymon Mieszkowski (Long Bay College), and Jiahong (Kai) Yu (Pinehurst School) will be travelling to Bolivia where they will be representing New Zealand at the 37th International Olympiad in Informatics.
 
 The IOI will be held in Sucre, Bolivia from the 27th of July to the 3rd of August. The team will be led by Nicholas Grace and Ravid Aharon.
 
