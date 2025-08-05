@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "EGOI 2025"
+date:   2025-08-05
+author: Anatol Coen
+---
+The fifth European Girls' Olympiad in Informatics was held two weeks ago in Bonn, Germany and this marks the second time New Zealand has attended in person. The team had a bit of a rough start, even before leaving New Zealand, with both of our domestic flights to Auckland getting cancelled. After that, we had few issues and made it to Bonn as planned. To the surprise of all the German locals, our Deutsche Bahn train service even ended up being on time!
+
+Once in Bonn, we had some time to visit before the EGOI started, so we went around the city centre visiting places such as the Haribo Shop (Bonn is the birthplace of Haribo!) and the Bonner Münster. Then, the events started &mdash; the practice contest, a tour of the University of Bonn, the opening ceremony, activites organised by Deutsche Telekom, and finally, but most importantly, the contest days!
+
+All of our contestants performed well in both contest days, where they were up against contestants from 59 different countries. My congratulations go out to the entire team Juno came 60th overall, with 361 points, earning them a Bronze (and almost Silver) medal! This is our second ever medal at the EGOI! Then: Ava placed 176th with 109 points; Vicky placed 189th with 80 points; and Georgia placed 197th with 73 points.
+
+After the contests, all the teams were taken up the Drachenfels where they got to see the ruins of Burg Drachenfels and the current Schloss Drachenburg castle, followed by a cruise down the Rhine.
+
+A special mention should also go out to Iván Gáspárdy, who authored one of the EGOI tasks.
+
+Thank you to everyone who made this possible for the New Zealand team, from the German organisers to the helpers back in NZ!
+
+<img src="/images/posts/2025-08-05-EGOI-Opening.jpg" width=600>
+<br><span style="color:gray;font-size:0.9em;">The delegation at the opening ceremony. Left to right: Briar, Anatol, Juno, Georgia, Vicky, Ava</span>
+
+<img src="/images/posts/2025-08-05-Juno-Medal.png" width=600>
+<br><span style="color:gray;font-size:0.9em;">Juno receiving their medal</span>
+
+<img src="/images/posts/2025-08-05-Electoral-Palace.jpg" width=600>
+<br><span style="color:gray;font-size:0.9em;">The team infront of the Bonn Electoral Palace, which is depicted in the logo of EGOI 2025</span>
+
+<img src="/images/posts/2025-08-05-Cloister.jpg" width=600>
+<br><span style="color:gray;font-size:0.9em;">The team in the Bonner Münster Cloister</span>
+
+<img src="/images/posts/2025-08-05-Schloss.jpg" width=400>
+<br><span style="color:gray;font-size:0.9em;">Schloss Drachenburg</span>
+
+<img src="/images/posts/2025-08-05-Juno-Owl.jpg" width=300>
+<br><span style="color:gray;font-size:0.9em;">Juno with the Dutch mascot Owl</span>
