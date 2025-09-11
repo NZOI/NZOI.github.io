@@ -3,14 +3,21 @@ title: Past Contests
 layout: nzic_page
 nzic_weight: 90
 ---
-## Current Round
+## Past Winners and Contests
 ### 2025
+
+1. Guan Han Li (Murrays Bay Intermediate School)
+2. Tymon Mieszkowski (Long Bay College)
+3. Eric Liu (Macleans College)
+
+- [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vSDmIGA6YCEavsW4JUWdRcPYGoG4k3Vj4WkFGKv9-FGuT2ddhHrLhdnYujcZRkagSuICZx0P7NlROxz/pubhtml)
+- [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJltei6RMz4dxlTQtJXAI008t4EeWjAtwgNuUDXFGL5-6fUEEt8qOVSZjRHMQjA1EoIeR1OuoImS8e/pubhtml)
+- [Round 3 Solutions](2025/NZIC_2025_R3_Solutions.pdf)
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vStBK1cCa_odLShgFiEuNr4sr1Hyse0F8gVc-SuuuazsEU-chkt461JzM3ske1ILWznekufizzsEgzs/pubhtml)
 - [Round 2 Solutions](2025/NZIC_2025_R2_Solutions.pdf)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vRtwc6Be_EJnmJOZeFSqGS4dkKKAJYgX3fc1FLOY69eMhlFrcC9SzlTMEB2arQYC6PfFsPpwf4Ctmzs/pubhtml)
 - [Round 1 Solutions](2025/NZIC_2025_R1_Solutions.pdf)
 
-## Past Winners and Contests
 ### 2024
 
 1. Guan Han Li (Murrays Bay Intermediate School)
