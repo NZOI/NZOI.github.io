@@ -12,7 +12,13 @@ These are subject to change until each contest begins.
 
 There will be official scoreboards for individual students and an informal one for schools.
 
-Each student will be ranked for the year based on a weighted sum of their round 1-3 scores. The higher scores will have a larger weighting than lower scores.
+Each student will be ranked for the year based on a simple sum of their round 1-3 scores.
+
+A student's score for a round is the sum of their scores for each problem in that round.
+
+If a student's submission is fully correct (passes all the test cases for a problem), they will be awarded full points for that problem. Some problems may have "subtasks" with easier constraints than the full problem, and different point values. Partial points will be awarded for passing some of the subtasks. The subtasks, and their point values, will be clearly indicated in the problem statement. Starting in NZIC 2026, if a student solves a subtask in one submission, they will still receive the points for that subtask if they later submit a solution that fails that subtask.
+
+While the contest is running, students will be able to see their live score for each problem, and their total score for the round from the scoreboard tab on the contest page.
 
 The scoring system is subject to change at the discretion of the contest administrator.
 
