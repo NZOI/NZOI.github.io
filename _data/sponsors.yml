@@ -1,3 +1,15 @@
+- year: 2026
+  sponsors:
+    -
+      name: Jane Street
+      sponsor_logo: js.png
+      reset: true
+    -
+      name: University of Canterbury
+      sponsor_logo: UC.png
+    -
+      name: Ministry of Education
+      sponsor_logo: moe.png
 - year: 2025
   sponsors:
     -

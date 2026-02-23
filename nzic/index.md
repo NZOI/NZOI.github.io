@@ -7,15 +7,17 @@ nzic_weight: 0
 The NZIC online programming contest series, run by the New Zealand Olympiad in Informatics, will continue in 2026! There will be 3 rounds. In each round, students choose a time during the week of that round to solve a selection of programming problems. The difficulty ranges from entry-level implementation problems to more challenging algorithmic problems. You can find examples on our [training website](https://train.nzoi.org.nz/).
 
 **Registration**  
-Registration for NZIC 2026 will open next year. For updates, you can [sign up to the NZIC mailing list](#updates).
+Registration for NZIC 2026 is now open. You can register [here](https://docs.google.com/forms/d/e/1FAIpQLSdE8zB778dwLCmF9pwaINBF5t9jqLqBGlABiasCSLxo8hZuNg/viewform?usp=dialog). For updates, you can [sign up to the NZIC mailing list](#updates).
 
 ### Schedule
 
-There will be 3 rounds in NZIC 2026. The contest schedule will be announced in early 2026. For reference, the schedule for NZIC 2025 was:
+There will be 3 rounds in NZIC 2026. They will be held on the following dates:
 
-- Monday 7 April - Sunday 13 April
-- Monday 23 June - Sunday 29 June
-- Monday 11 August - Sunday 17 August
+- Monday 23 March - Sunday 29 March
+- Monday 29 June - Sunday 5 July
+- Monday 17 August - Sunday 23 August
+
+Please note that this year, unlike in previous years, the first round is **not** during the last week of term 1. It is during the second to last week instead.
 
 ### Updates
 
