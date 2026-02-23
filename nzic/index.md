@@ -17,7 +17,7 @@ There will be 3 rounds in NZIC 2026. They will be held on the following dates:
 - Monday 29 June - Sunday 5 July
 - Monday 17 August - Sunday 23 August
 
-Please not that this year, unlike in previous years, the first round is **not** during the last week of term 1. It is during the second to last week instead.
+Please note that this year, unlike in previous years, the first round is **not** during the last week of term 1. It is during the second to last week instead.
 
 ### Updates
 
