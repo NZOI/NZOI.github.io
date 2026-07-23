@@ -5,8 +5,8 @@ nzic_weight: 90
 ---
 ## Current Round
 ### 2026
+- [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiz_fSsQdDX0t57B-C3TiqK3znI3ILjDak90EGpeI80qRB8Qj8T2s7sdj5_t3Y78zEbnT1XsnQp1tH/pubhtml)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTjQgTfTF63BsudCVPfg7roILPSYqcKoSO3Hpb_87JmvDYD2LMFkLL2w4dAZAyxIH6UEnMHkSwokkBQ/pubhtml)
-- Round 1 Solutions will be coming soon.
 
 ## Past Winners and Contests
 ### 2025
