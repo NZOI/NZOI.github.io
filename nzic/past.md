@@ -3,12 +3,19 @@ title: Past Contests
 layout: nzic_page
 nzic_weight: 90
 ---
-## Current Round
+## Past Winners and Contests
+
 ### 2026
+
+1. Guan Han Li (Rangitoto College)
+2. Ron Chen (Saint Patrick's College Silverstream)
+3. Eric Liu (Macleans College)
+
+- [Overall Rankings](https://docs.google.com/spreadsheets/d/e/2PACX-1vRiueOqyov5sZUKwkwY2x5c53hgFyyi9tPk5XTr4CtrskElcxGy7AGdpkazHpVtAMcP1C-kQx0nngu9/pubhtml)
+- [Round 3 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vR2WXeuyAAQpTpzGsiY_erjYrkTgAPbktnSwiYVr__pRPkAUzfjVe3F8dh5JnVDYq_k8huWFtc8o855/pubhtml)
 - [Round 2 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vQiz_fSsQdDX0t57B-C3TiqK3znI3ILjDak90EGpeI80qRB8Qj8T2s7sdj5_t3Y78zEbnT1XsnQp1tH/pubhtml)
 - [Round 1 Scoreboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vTjQgTfTF63BsudCVPfg7roILPSYqcKoSO3Hpb_87JmvDYD2LMFkLL2w4dAZAyxIH6UEnMHkSwokkBQ/pubhtml)
 
-## Past Winners and Contests
 ### 2025
 
 1. Guan Han Li (Murrays Bay Intermediate School)
